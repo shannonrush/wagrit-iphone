@@ -1,7 +1,7 @@
 TWagrIt
 v7
 r0
-t309102763.375892
+t309121004.558243
 cCheck dependencies
 cProcessInfoPlistFile /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/Info.plist WagrIt-Info.plist
 cCompileXIB /Users/shannonmrush/git/wagrit-iphone/WagrIt/MainWindow.xib
@@ -45,21 +45,21 @@ t1281507972
 s31598784
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.h
-c000000004CBC3BFB00000000000000EA
-t1287404539
-s234
+c000000004CBC92960000000000000209
+t1287426710
+s521
 i<UIKit/UIKit.h>
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.m
-c000000004CBC3BFB00000000000005A5
-t1287404539
-s1445
+c000000004CBC986600000000000007DD
+t1287428198
+s2013
 i"LoginViewController.h"
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.xib
-c000000004CBC5124000000000000521B
-t1287409956
-s21019
+c000000004CBC96E20000000000005E2C
+t1287427810
+s24108
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.h
 c000000004CBC3C9E00000000000001D5
@@ -87,11 +87,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app
-t1287409963
+t1287428204
 s238
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app.dSYM
-t1287405318
+t1287428204
 s102
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/Info.plist
@@ -99,8 +99,8 @@ t1287404087
 s587
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/LoginViewController.nib
-t1287409963
-s3596
+t1287427817
+s3978
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/MainWindow.nib
 t1287404087
@@ -111,12 +111,12 @@ t1287404087
 s8
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt
-t1287405318
-s17216
+t1287428204
+s18640
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/LoginViewController.o
-t1287405318
-s34624
+t1287428204
+s43152
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/WagrIt.LinkFileList
 c000000004CBC3F060000000000000196
@@ -124,8 +124,8 @@ t1287405318
 s406
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/WagrItAppDelegate.o
-t1287405318
-s49072
+t1287427113
+s49152
 
 N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/main.o
 t1287404088
@@ -148,11 +148,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies309102762#309102762#0(0"0(0#1#0"8621063808#0"0#
+lSLF07#2@18"Check dependencies309121003#309121004#0(0"0(0#1#0"8620246304#0"0#
 
 CCompileC build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/LoginViewController.o /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309098118.610586
-e309098118.702052
+s309121004.009690
+e309121004.220319
 r1
 xCompileC
 xbuild/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/LoginViewController.o
@@ -161,11 +161,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.m309098118#309098118#0(0"0(0#0#74"/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.m8616950656#1998"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-generated-files.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-own-target-headers.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-all-target-headers.hmap -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-project-headers.hmap -F/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/include -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources/i386 -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources -include /var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-bjpenpecbvudzwduznwpqcnlejst/WagrIt_Prefix.pch -c /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.m -o /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/LoginViewController.o0#
+lSLF07#2@82"Compile /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.m309121004#309121004#0(0"0(0#0#74"/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.m8620603200#1998"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-generated-files.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-own-target-headers.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-all-target-headers.hmap -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-project-headers.hmap -F/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/include -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources/i386 -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources -include /var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-bjpenpecbvudzwduznwpqcnlejst/WagrIt_Prefix.pch -c /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.m -o /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/LoginViewController.o0#
 
 CCompileC build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/WagrItAppDelegate.o /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309098118.532280
-e309098118.727642
+s309119913.617532
+e309119914.042157
 r1
 xCompileC
 xbuild/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/WagrItAppDelegate.o
@@ -174,7 +174,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m309098118#309098118#0(0"0(0#0#72"/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m8599446688#1994"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-generated-files.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-own-target-headers.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-all-target-headers.hmap -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-project-headers.hmap -F/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/include -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources/i386 -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources -include /var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-bjpenpecbvudzwduznwpqcnlejst/WagrIt_Prefix.pch -c /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m -o /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/WagrItAppDelegate.o0#
+lSLF07#2@80"Compile /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m309119913#309119914#0(0"0(0#0#72"/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m8615611200#1994"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-generated-files.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-own-target-headers.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-all-target-headers.hmap -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-project-headers.hmap -F/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/include -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources/i386 -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources -include /var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-bjpenpecbvudzwduznwpqcnlejst/WagrIt_Prefix.pch -c /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m -o /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/WagrItAppDelegate.o0#
 
 CCompileC build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/main.o /Users/shannonmrush/git/wagrit-iphone/WagrIt/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309096888.705505
@@ -190,12 +190,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/shannonmrush/git/wagrit-iphone/WagrIt/main.m309096888#309096888#0(0"0(0#0#51"/Users/shannonmrush/git/wagrit-iphone/WagrIt/main.m8616540576#1960"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-generated-files.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-own-target-headers.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-all-target-headers.hmap -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-project-headers.hmap -F/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/include -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources/i386 -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources -include /var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-bjpenpecbvudzwduznwpqcnlejst/WagrIt_Prefix.pch -c /Users/shannonmrush/git/wagrit-iphone/WagrIt/main.m -o /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.xib
-s309102762.818054
-e309102763.370945
+s309120616.465023
+e309120617.472778
 r1
 xCompileXIB
 x/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.xib
-lSLF07#2@42"CompileXIB Classes/LoginViewController.xib309102762#309102763#0(0"0(0#0#76"/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.xib8611560352#613"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/LoginViewController.nib /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@42"CompileXIB Classes/LoginViewController.xib309120616#309120617#0(0"0(0#0#76"/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.xib8620142048#613"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/LoginViewController.nib /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/LoginViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/shannonmrush/git/wagrit-iphone/WagrIt/MainWindow.xib
 s309096887.288151
@@ -206,23 +206,23 @@ x/Users/shannonmrush/git/wagrit-iphone/WagrIt/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib309096887#309096887#0(0"0(0#0#59"/Users/shannonmrush/git/wagrit-iphone/WagrIt/MainWindow.xib8616874240#587"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/MainWindow.nib /Users/shannonmrush/git/wagrit-iphone/WagrIt/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CGenerateDSYMFile /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app.dSYM /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt
-s309098118.758165
-e309098118.777911
+s309121004.418582
+e309121004.554932
 r1
 xGenerateDSYMFile
 x/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app.dSYM
 x/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/WagrIt.app.dSYM build/Debug-iphonesimulator/WagrIt.app/WagrIt309098118#309098118#0(0"0(0#0#90"/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt8621042592#398"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt -o /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app.dSYM0#
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/WagrIt.app.dSYM build/Debug-iphonesimulator/WagrIt.app/WagrIt309121004#309121004#0(0"0(0#0#90"/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt8621070368#398"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt -o /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app.dSYM0#
 
 CLd /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt normal i386
-s309098118.727750
-e309098118.758041
+s309121004.220425
+e309121004.418474
 r1
 xLd
 x/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt
 xnormal
 xi386
-lSLF07#2@95"Link /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt309098118#309098118#0(0"0(0#0#0"8617359872#925"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -F/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -filelist /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/WagrIt.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt0#
+lSLF07#2@95"Link /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt309121004#309121004#0(0"0(0#0#0"8618201184#925"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -F/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -filelist /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/Objects-normal/i386/WagrIt.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/WagrIt0#
 
 CProcessInfoPlistFile /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app/Info.plist WagrIt-Info.plist
 s309096887.284137
@@ -247,10 +247,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@28"Precompile WagrIt_Prefix.pch309096887#309096888#0(0"0(0#0#62"/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt_Prefix.pch8617355168#1847"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-generated-files.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-own-target-headers.hmap -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-all-target-headers.hmap -iquote /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/WagrIt-project-headers.hmap -F/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/include -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources/i386 -I/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphonesimulator/WagrIt.build/DerivedSources -c /Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt_Prefix.pch -o /var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-bjpenpecbvudzwduznwpqcnlejst/WagrIt_Prefix.pch.gch0#
 
 CTouch /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app
-s309102763.371576
-e309102763.375841
+s309121004.555031
+e309121004.558184
 r1
 xTouch
 x/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app
-lSLF07#2@89"Touch /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app309102763#309102763#0(0"0(0#0#0"8611022112#289"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app0#
+lSLF07#2@89"Touch /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app309121004#309121004#0(0"0(0#0#0"8620850496#289"    cd /Users/shannonmrush/git/wagrit-iphone/WagrIt    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphonesimulator/WagrIt.app0#
 
