@@ -1,0 +1,191 @@
+TWagrIt
+v7
+r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.h
+c000000004CBC3A220000000000000145
+t1287404066
+s325
+i<UIKit/UIKit.h>
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m
+c000000004CBC3A2200000000000009C6
+t1287404066
+s2502
+i"WagrItAppDelegate.h"
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/MainWindow.xib
+c000000004CBC3A220000000000002103
+t1287404066
+s8451
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt_Prefix.pch
+c000000004CBC3A2200000000000000B5
+t1287404066
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app.dSYM
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app/Info.plist
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app/MainWindow.nib
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app/PkgInfo
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app/ResourceRules.plist
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app/WagrIt
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv6/WagrIt
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv6/WagrIt.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv6/WagrItAppDelegate.o
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv7/WagrIt
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv7/WagrIt.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv7/WagrItAppDelegate.o
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/shannonmrush/git/wagrit-iphone/WagrIt/main.m
+c000000004CBC3A220000000000000169
+t1287404066
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-efagftdymtkthxcziztuxqgwkdqw/WagrIt_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-evoauaryfypvqkeqfqsxtcmvbqqo/WagrIt_Prefix.pch.gch
+t2
+s0
+
+NWagrIt-Info.plist
+c000000004CBC3A22000000000000038D
+t1287404066
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309096881#309096881#0(135"[BEROR]Code Sign error: a valid provisioning profile matching the application's Identifier 'com.yourcompany.WagrIt' could not be found1(4@127"Code Sign error: a valid provisioning profile matching the application's Identifier 'com.yourcompany.WagrIt' could not be found309096881#18446744073709551615#0#0(1@0"0(0#1#0"8602780928#0"0#
+
+CCompileC build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv6/WagrItAppDelegate.o /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv6/main.o /Users/shannonmrush/git/wagrit-iphone/WagrIt/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv7/WagrItAppDelegate.o /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv7/main.o /Users/shannonmrush/git/wagrit-iphone/WagrIt/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/shannonmrush/git/wagrit-iphone/WagrIt/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphoneos/WagrIt.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app/WagrIt normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app.dSYM /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app/WagrIt
+r0
+
+CLd /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv6/WagrIt normal armv6
+r0
+
+CLd /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/WagrIt.build/Debug-iphoneos/WagrIt.build/Objects-normal/armv7/WagrIt normal armv7
+r0
+
+CProcessInfoPlistFile /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app/Info.plist WagrIt-Info.plist
+r0
+
+CProcessPCH /var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-efagftdymtkthxcziztuxqgwkdqw/WagrIt_Prefix.pch.gch WagrIt_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/85/85s5D4jvHbaYCDfZX6xhm++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WagrIt_Prefix-evoauaryfypvqkeqfqsxtcmvbqqo/WagrIt_Prefix.pch.gch WagrIt_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/shannonmrush/git/wagrit-iphone/WagrIt/build/Debug-iphoneos/WagrIt.app
+r0
+
