@@ -19,6 +19,6 @@
 @property (nonatomic, retain) IBOutlet UILabel *label;
 @property (nonatomic, copy) NSString *string;
 
-- (IBAction)changeGreeting:(id)sender;
+- (IBAction)loginUser:(id)sender;
 
 @end
