@@ -1,7 +1,0 @@
-In file included from /Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/UserController.m:10:
-/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/User.h:12: error: duplicate interface declaration for class 'User'
-/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/User.h:14: error: redefinition of 'struct User'
-/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/UserController.m:11:30: error: ObjectiveResource.h: No such file or directory
-/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/UserController.m:15: warning: cannot find interface declaration for 'UserController'
-/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/UserController.m:15: error: no declaration of property 'users' found in the interface
-/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/UserController.m:15: error: no declaration of property 'user' found in the interface
