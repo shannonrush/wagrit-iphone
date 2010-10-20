@@ -10,14 +10,12 @@
 
 
 @interface LoginViewController : UIViewController <UITextFieldDelegate> {
-	UITextField *textField;
-	UILabel *label;
-	NSString *string;
+	UITextField *loginField;
+	UITextField *passwordField;
 }
 
-@property (nonatomic, retain) IBOutlet UITextField *textField;
-@property (nonatomic, retain) IBOutlet UILabel *label;
-@property (nonatomic, copy) NSString *string;
+@property (nonatomic, retain) IBOutlet UITextField *loginField;
+@property (nonatomic, retain) IBOutlet UITextField *passwordField;
 
 - (IBAction)loginUser:(id)sender;
 
