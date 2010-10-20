@@ -1,0 +1,5 @@
+/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m:11:36: error: ObjectiveResourceConfig.h: No such file or directory
+/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m: In function '-[WagrItAppDelegate application:didFinishLaunchingWithOptions:]':
+/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m:24: error: 'ObjectiveResourceConfig' undeclared (first use in this function)
+/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m:24: error: (Each undeclared identifier is reported only once
+/Users/shannonmrush/git/wagrit-iphone/WagrIt/Classes/WagrItAppDelegate.m:24: error: for each function it appears in.)

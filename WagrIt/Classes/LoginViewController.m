@@ -11,6 +11,7 @@
 
 @implementation LoginViewController
 
+@synthesize textField;
 
 - (IBAction)loginUser:(id)sender {
 	
