@@ -20,7 +20,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-	[ObjectiveResourceConfig setSite:@"http://localhost:3000/"]; // TODO: Change to wagrit.com
 	LoginViewController *aViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];
 	[self setLoginViewController:aViewController];
 	[aViewController release];

@@ -11,7 +11,8 @@
 
 @implementation LoginViewController
 
-@synthesize textField;
+@synthesize loginField;
+@synthesize passwordField;
 
 - (IBAction)loginUser:(id)sender {
     NSURL *url = [NSURL URLWithString:@"http://localhost:3000/session.json"]; 
@@ -29,12 +30,12 @@
         NSURLResponse *WSresponse; 
         responseData = [[NSMutableData alloc ] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&WSresponse error:&WSerror]]; 
         NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-        
         NSDictionary *dictionary = [responseString JSONValue];
         NSLog(@"Dictionary value for \"success\" is \"%@\"", [dictionary objectForKey:@"success"]);
         NSLog(@"%@",responseString);
         [responseString release];
-        [dictionary release];
+		
+		
     } 
     [connection release];
     [responseData release];
@@ -65,10 +66,8 @@
 }
 */
 
-- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
-	if (theTextField == textField) {
-		[textField resignFirstResponder];
-	}
+- (BOOL)textFieldShouldReturn:(UITextField *)theField {
+	[theField resignFirstResponder];
 	return YES;
 }
 
@@ -87,9 +86,8 @@
 
 
 - (void)dealloc {
-	[textField release];
-	[label release];
-	[string release];
+	//[loginField release];
+	//[passwordField release];
     [super dealloc];
 }
 
