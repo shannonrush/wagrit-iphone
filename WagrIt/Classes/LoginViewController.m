@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "WagrListViewController.h"
 
 
 @implementation LoginViewController
@@ -33,8 +34,21 @@
         NSDictionary *dictionary = [responseString JSONValue];
         NSLog(@"Dictionary value for \"success\" is \"%@\"", [dictionary objectForKey:@"success"]);
         NSLog(@"%@",responseString);
-        [responseString release];
 		
+		// root VC for nav
+		WagrListViewController*  rootVC = [[WagrListViewController alloc] init];
+		
+		// Create the nav controller and add the view controllers.
+		UINavigationController*  navController = [[UINavigationController alloc] initWithRootViewController:rootVC];
+		
+		// Display the nav controller modally.
+		[self presentModalViewController:navController animated:YES];
+		
+		// Release the view controllers to prevent over-retention.
+		
+		[rootVC release];	
+		[navController release];
+        [responseString release];
 		
     } 
     [connection release];
