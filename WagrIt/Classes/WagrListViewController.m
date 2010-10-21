@@ -16,14 +16,28 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
-- (void)viewDidLoad {
-    [super viewDidLoad];
 
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	wagrs = [[NSDictionary alloc] init];
+	NSURL *url = [NSURL URLWithString:@"http://localhost:3000/wagers.json"]; 
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    NSMutableData *responseData;
+	[request setHTTPMethod:@"GET"]; 
+    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"content-type"];
+    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
+    if(connection) { 
+        NSError *WSerror; 
+        NSURLResponse *WSresponse; 
+        responseData = [[NSMutableData alloc ] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&WSresponse error:&WSerror]]; 
+        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+        wagrs = [responseString JSONValue];
+        NSLog(@"%@",responseString);	
+	}
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -69,49 +83,13 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    // Return the number of rows in the section.
-	// get data for table
-	NSURL *url = [NSURL URLWithString:@"http://localhost:3000/wagers.json"]; 
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
-    NSMutableData *responseData;
-    //NSString *dataString=[NSString stringWithFormat:@"login=%@&password=%@",loginField.text, passwordField.text]; 
-    
-    //[request setHTTPBody:[dataString dataUsingEncoding:NSISOLatin1StringEncoding]];
-    [request setHTTPMethod:@"GET"]; 
-    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"content-type"];
-    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
-    NSDictionary *wagrs;
-    if(connection) { 
-        NSError *WSerror; 
-        NSURLResponse *WSresponse; 
-        responseData = [[NSMutableData alloc ] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&WSresponse error:&WSerror]]; 
-        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-        wagrs = [responseString JSONValue];
-		//    NSLog(@"Dictionary value for \"success\" is \"%@\"", [dictionary objectForKey:@"success"]);
-        NSLog(@"%@",responseString);
-	}
     return [wagrs count];
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	// get data for table
-	NSURL *url = [NSURL URLWithString:@"http://localhost:3000/wagers.json"]; 
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
-    NSMutableData *responseData;
-	[request setHTTPMethod:@"GET"]; 
-    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"content-type"];
-    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
-    NSDictionary *wagrs;
-    if(connection) { 
-        NSError *WSerror; 
-        NSURLResponse *WSresponse; 
-        responseData = [[NSMutableData alloc ] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&WSresponse error:&WSerror]]; 
-        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-        wagrs = [responseString JSONValue];
-        NSLog(@"%@",responseString);	
-	}
+
 	static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -120,7 +98,8 @@
     }
 
 	cell.textLabel.text = [[wagrs objectAtIndex:[indexPath row]] valueForKeyPath:@"wager.description"];
-    return cell;
+    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+	return cell;
 }
 
 
@@ -168,15 +147,45 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSLog(@"In didSelectRowAtIndexPath");
+	wagrs = [[NSDictionary alloc] init];
+	NSURL *url = [NSURL URLWithString:@"http://localhost:3000/wagers.json"]; 
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    NSMutableData *responseData;
+	[request setHTTPMethod:@"GET"]; 
+    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"content-type"];
+    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
+    if(connection) { 
+        NSError *WSerror; 
+        NSURLResponse *WSresponse; 
+        responseData = [[NSMutableData alloc ] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&WSresponse error:&WSerror]]; 
+        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+        wagrs = [responseString JSONValue];
+        NSLog(@"%@",responseString);	
+	}
     // Navigation logic may go here. Create and push another view controller.
 	
-	 WagrDetailViewController *wagrDetail = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:wagrDetail animated:YES];
-	 [wagrDetail release];
+	//Get the selected country
+	selectedWagr = [[NSDictionary alloc] init];
+	selectedWagr = [wagrs objectAtIndex:[indexPath row]];
+	//Initialize the detail view controller and display it.
+	WagrDetailViewController *dvController = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:[NSBundle mainBundle]];
+	dvController.selectedWagr = selectedWagr;
+	[self.navigationController pushViewController:dvController animated:YES];
+	[dvController release];
+	dvController = nil;
+
+	
+	//Initialize the detail view controller and display it.
+	//WagrDetailViewController *wagrDetail = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:nil];
+	//[self.navigationController pushViewController:wagrDetail animated:YES];
+}
 	 
+
+-(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
+	WagrDetailViewController *wagrDetail = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:nil];
+	// ...
+	// Pass the selected object to the new view controller.
+	[self.navigationController pushViewController:wagrDetail animated:YES];
 }
 
 

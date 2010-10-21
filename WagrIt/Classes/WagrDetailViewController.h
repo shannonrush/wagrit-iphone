@@ -10,7 +10,10 @@
 
 
 @interface WagrDetailViewController : UIViewController {
-
+	NSDictionary *selectedWagr;
 }
+
+@property (nonatomic, retain) NSDictionary *selectedWagr;
+
 
 @end

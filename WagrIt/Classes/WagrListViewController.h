@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class WagrDetailViewController;
 
 @interface WagrListViewController : UITableViewController {
-
+	NSDictionary *wagrs;
+	NSDictionary *selectedWagr;
 }
+
 
 @end
