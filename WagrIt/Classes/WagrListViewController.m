@@ -166,7 +166,7 @@
 	
 	//Get the selected country
 	selectedWagr = [[NSDictionary alloc] init];
-	selectedWagr = [wagrs objectAtIndex:[indexPath row]];
+	selectedWagr = [[wagrs objectAtIndex:[indexPath row]] objectForKey:@"wager"];
 	//Initialize the detail view controller and display it.
 	WagrDetailViewController *dvController = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:[NSBundle mainBundle]];
 	dvController.selectedWagr = selectedWagr;

@@ -27,11 +27,35 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	self.title = [self.selectedWagr valueForKeyPath:@"wager.description"];
+	self.title = [self.selectedWagr valueForKeyPath:@"description"];
 
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // Return the number of sections.
+    return 1;
+}
 
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 11;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	static NSString *MyIdentifier = @"NormalCell";
+	
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
+	if (cell == nil) {
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MyIdentifier];
+	}
+	
+	NSString *key = [[self.selectedWagr allKeys] objectAtIndex:indexPath.row];
+	NSString *value = [self.selectedWagr valueForKey:key];
+	UILabel *label = [cell textLabel];
+	
+	label.text = [NSString stringWithFormat:@"%@: %@", key, value];
+	return cell;
+}
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
