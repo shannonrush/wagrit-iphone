@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
 
-@interface LoginViewController : UIViewController <UITextFieldDelegate> {
+@interface LoginViewController : BaseViewController <UITextFieldDelegate> {
 	UITextField *loginField;
 	UITextField *passwordField;
 }

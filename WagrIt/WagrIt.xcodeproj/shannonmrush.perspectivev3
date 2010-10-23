@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -279,7 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -313,6 +311,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -330,18 +330,20 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C312C8441271BDB700839A4B</string>
+										<string>C312C90A12737B3300839A4B</string>
 										<key>history</key>
 										<array>
-											<string>C312C43F126E80F400839A4B</string>
 											<string>C312C45D126E861400839A4B</string>
 											<string>C312C5BF1270B46800839A4B</string>
-											<string>C312C5EA1270C14900839A4B</string>
 											<string>C312C6641270D57500839A4B</string>
-											<string>C312C6C11270E32400839A4B</string>
 											<string>C312C80E1271BB0300839A4B</string>
-											<string>C312C8421271BDB700839A4B</string>
-											<string>C312C8431271BDB700839A4B</string>
+											<string>C312C861127328A800839A4B</string>
+											<string>C312C865127328A800839A4B</string>
+											<string>C312C866127328A800839A4B</string>
+											<string>C312C8B412732FF800839A4B</string>
+											<string>C312C8EB127331DE00839A4B</string>
+											<string>C312C90912737B3300839A4B</string>
+											<string>C312C90812737B2800839A4B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -658,6 +660,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>C312C90512737B1C00839A4B</string>
 		<string>C312C7381270E6F800839A4B</string>
 		<string>C312C72D1270E6A900839A4B</string>
 		<string>/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt.xcodeproj</string>

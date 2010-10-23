@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
 @class WagrDetailViewController;
 
-@interface WagrListViewController : UITableViewController {
-	NSDictionary *wagrs;
+@interface WagrListViewController : BaseViewController {
 	NSDictionary *selectedWagr;
 }
+
 
 
 @end

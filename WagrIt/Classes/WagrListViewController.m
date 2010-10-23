@@ -19,21 +19,7 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	wagrs = [[NSDictionary alloc] init];
-	NSURL *url = [NSURL URLWithString:@"http://localhost:3000/wagers.json"]; 
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
-    NSMutableData *responseData;
-	[request setHTTPMethod:@"GET"]; 
-    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"content-type"];
-    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
-    if(connection) { 
-        NSError *WSerror; 
-        NSURLResponse *WSresponse; 
-        responseData = [[NSMutableData alloc ] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&WSresponse error:&WSerror]]; 
-        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-        wagrs = [responseString JSONValue];
-        NSLog(@"%@",responseString);	
-	}
+	wagrs = [self collectWagrs];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
@@ -147,25 +133,6 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	wagrs = [[NSDictionary alloc] init];
-	NSURL *url = [NSURL URLWithString:@"http://localhost:3000/wagers.json"]; 
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
-    NSMutableData *responseData;
-	[request setHTTPMethod:@"GET"]; 
-    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"content-type"];
-    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
-    if(connection) { 
-        NSError *WSerror; 
-        NSURLResponse *WSresponse; 
-        responseData = [[NSMutableData alloc ] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&WSresponse error:&WSerror]]; 
-        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-        wagrs = [responseString JSONValue];
-        NSLog(@"%@",responseString);	
-	}
-    // Navigation logic may go here. Create and push another view controller.
-	
-	//Get the selected country
-	selectedWagr = [[NSDictionary alloc] init];
 	selectedWagr = [[wagrs objectAtIndex:[indexPath row]] objectForKey:@"wager"];
 	//Initialize the detail view controller and display it.
 	WagrDetailViewController *dvController = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:[NSBundle mainBundle]];
@@ -173,11 +140,6 @@
 	[self.navigationController pushViewController:dvController animated:YES];
 	[dvController release];
 	dvController = nil;
-
-	
-	//Initialize the detail view controller and display it.
-	//WagrDetailViewController *wagrDetail = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:nil];
-	//[self.navigationController pushViewController:wagrDetail animated:YES];
 }
 	 
 

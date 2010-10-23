@@ -22,6 +22,7 @@
 		C312C4A1126FBE1600839A4B /* WagrListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C312C49F126FBE1600839A4B /* WagrListViewController.xib */; };
 		C312C5BC1270B45F00839A4B /* WagrDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */; };
 		C312C5BD1270B45F00839A4B /* WagrDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C312C5BB1270B45F00839A4B /* WagrDetailViewController.xib */; };
+		C312C854127326D900839A4B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C312C853127326D900839A4B /* BaseViewController.m */; };
 		C3C31C1B126C737B003846A0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C31C19126C737B003846A0 /* LoginViewController.m */; };
 		C3C31C1C126C737B003846A0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C31C1A126C737B003846A0 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,8 @@
 		C312C5B91270B45F00839A4B /* WagrDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WagrDetailViewController.h; sourceTree = "<group>"; };
 		C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WagrDetailViewController.m; sourceTree = "<group>"; };
 		C312C5BB1270B45F00839A4B /* WagrDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WagrDetailViewController.xib; path = Classes/WagrDetailViewController.xib; sourceTree = "<group>"; };
+		C312C852127326D900839A4B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C312C853127326D900839A4B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		C3C31C18126C737B003846A0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		C3C31C19126C737B003846A0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C3C31C1A126C737B003846A0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/LoginViewController.xib; sourceTree = "<group>"; };
@@ -76,15 +79,17 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C312C443126E833900839A4B /* JSON */,
+				C312C852127326D900839A4B /* BaseViewController.h */,
+				C312C853127326D900839A4B /* BaseViewController.m */,
 				C312C49D126FBE1600839A4B /* WagrListViewController.h */,
 				C312C49E126FBE1600839A4B /* WagrListViewController.m */,
+				C312C5B91270B45F00839A4B /* WagrDetailViewController.h */,
+				C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */,
 				C3C31C18126C737B003846A0 /* LoginViewController.h */,
 				C3C31C19126C737B003846A0 /* LoginViewController.m */,
 				1D3623240D0F684500981E51 /* WagrItAppDelegate.h */,
 				1D3623250D0F684500981E51 /* WagrItAppDelegate.m */,
-				C312C5B91270B45F00839A4B /* WagrDetailViewController.h */,
-				C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */,
+				C312C443126E833900839A4B /* JSON */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 				C312C454126E834700839A4B /* SBJsonWriter.m in Sources */,
 				C312C4A0126FBE1600839A4B /* WagrListViewController.m in Sources */,
 				C312C5BC1270B45F00839A4B /* WagrDetailViewController.m in Sources */,
+				C312C854127326D900839A4B /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
