@@ -13,10 +13,12 @@
 @interface WagrItAppDelegate : NSObject <UIApplicationDelegate> {
 	LoginViewController *loginViewController;
     UIWindow *window;
+	NSString *baseDomain;
 }
 
 @property (nonatomic, retain) LoginViewController *loginViewController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) NSString *baseDomain;
 
 @end
 

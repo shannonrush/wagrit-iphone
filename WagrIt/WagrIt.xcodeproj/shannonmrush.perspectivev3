@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -277,7 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>9</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -299,8 +299,6 @@
 							<string>MainColumn</string>
 							<real>226</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>-1 103 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -311,14 +309,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>C3C31C00126C71B9003846A0</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WagrListViewController.m</string>
+								<string>LoginViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,24 +322,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C3C31C01126C71B9003846A0</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WagrListViewController.m</string>
+										<string>LoginViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C312C90A12737B3300839A4B</string>
+										<string>C312CB0D1273BDED00839A4B</string>
 										<key>history</key>
 										<array>
-											<string>C312C45D126E861400839A4B</string>
 											<string>C312C5BF1270B46800839A4B</string>
-											<string>C312C6641270D57500839A4B</string>
-											<string>C312C80E1271BB0300839A4B</string>
-											<string>C312C861127328A800839A4B</string>
-											<string>C312C865127328A800839A4B</string>
-											<string>C312C866127328A800839A4B</string>
-											<string>C312C8B412732FF800839A4B</string>
-											<string>C312C8EB127331DE00839A4B</string>
-											<string>C312C90912737B3300839A4B</string>
-											<string>C312C90812737B2800839A4B</string>
+											<string>C312C92712737F2E00839A4B</string>
+											<string>C312C92812737F2E00839A4B</string>
+											<string>C312CA731273A14700839A4B</string>
+											<string>C312CAB41273B7DE00839A4B</string>
+											<string>C312CAB51273B7DE00839A4B</string>
+											<string>C312CAB61273B7DE00839A4B</string>
+											<string>C312CAB71273B7DE00839A4B</string>
+											<string>C312CAF51273BBB000839A4B</string>
+											<string>C312CAFF1273BC0900839A4B</string>
+											<string>C312CB001273BC0900839A4B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,8 +354,6 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {1032, 486}}</string>
-								<key>RubberWindowFrame</key>
-								<string>-1 103 1280 674 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -437,8 +431,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1032, 115}}</string>
-										<key>RubberWindowFrame</key>
-										<string>-1 103 1280 674 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -521,12 +513,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {1280, 188}}</string>
+						<string>{{0, 0}, {1280, 201}}</string>
+						<key>RubberWindowFrame</key>
+						<string>0 102 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
 					<key>Proportion</key>
-					<string>188pt</string>
+					<string>201pt</string>
 				</dict>
 				<dict>
 					<key>ContentConfiguration</key>
@@ -545,8 +539,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {625, 214}}</string>
-									<string>{{625, 0}, {655, 214}}</string>
+									<string>{{0, 0}, {625, 218}}</string>
+									<string>{{625, 0}, {655, 218}}</string>
 								</array>
 							</dict>
 							<key>VerticalSplitView</key>
@@ -561,8 +555,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {1280, 214}}</string>
-									<string>{{0, 214}, {1280, 226}}</string>
+									<string>{{0, 0}, {1280, 218}}</string>
+									<string>{{0, 218}, {1280, 209}}</string>
 								</array>
 							</dict>
 						</dict>
@@ -582,7 +576,7 @@
 						<key>DebugSTDIOWindowFrame</key>
 						<string>{{200, 200}, {500, 300}}</string>
 						<key>Frame</key>
-						<string>{{0, 193}, {1280, 440}}</string>
+						<string>{{0, 206}, {1280, 427}}</string>
 						<key>PBXDebugSessionStackFrameViewKey</key>
 						<dict>
 							<key>DebugVariablesTableConfiguration</key>
@@ -595,13 +589,17 @@
 								<real>425</real>
 							</array>
 							<key>Frame</key>
-							<string>{{625, 0}, {655, 214}}</string>
+							<string>{{625, 0}, {655, 218}}</string>
+							<key>RubberWindowFrame</key>
+							<string>0 102 1280 674 0 0 1280 778 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>0 102 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
 					<key>Proportion</key>
-					<string>440pt</string>
+					<string>427pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -660,13 +658,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>C312C90512737B1C00839A4B</string>
 		<string>C312C7381270E6F800839A4B</string>
 		<string>C312C72D1270E6A900839A4B</string>
 		<string>/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-1 103 1280 674 0 0 1280 778 </string>
+	<string>0 102 1280 674 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

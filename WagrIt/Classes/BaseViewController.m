@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "WagrItAppDelegate.h"
 
 
 @implementation BaseViewController
@@ -42,20 +43,57 @@
 }
 */
 
--(NSArray *)collectWagrs {
-	NSURL *url = [NSURL URLWithString:@"http://localhost:3000/wagers.json"]; 
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
-    NSMutableData *responseData;
-	[request setHTTPMethod:@"GET"]; 
-    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"content-type"];
+-(NSURL *) constructURL:(NSString *)path {
+	WagrItAppDelegate *appDelegate = (WagrItAppDelegate *)[[UIApplication sharedApplication] delegate];
+	NSString *urlString=[NSString stringWithFormat:@"%@%@",appDelegate.baseDomain, path];
+	return [NSURL URLWithString:urlString];
+}
+
+-(void) noConnectionAlert {
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Unable to Connect" message:nil delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	[alert show];
+}
+
+-(NSArray *) sendRequest:(NSString *)path withMethod:(NSString *)method withContentType:(NSString *)contentType withData:(NSString *)dataString {
+	NSURL *url = [self constructURL:path]; 
+	NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+	NSMutableData *responseData;
+	
+	if (dataString != nil && [dataString length] > 0) {
+		[request setHTTPBody:[dataString dataUsingEncoding:NSISOLatin1StringEncoding]];
+	}
+    [request setHTTPMethod:method];
+	[request setValue:contentType forHTTPHeaderField:@"content-type"];
     [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
+	
 	NSError *WSerror; 
 	NSURLResponse *WSresponse; 
 	responseData = [[NSMutableData alloc ] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&WSresponse error:&WSerror]]; 
 	NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-	NSLog(@"%@",responseString);	
-	wagrs = [[NSArray alloc] initWithArray:[responseString JSONValue]];
-	return wagrs;
+	
+	if([responseData length] == 0) {
+		// No connection, show alert and return empty array
+		[self noConnectionAlert];
+		return [[NSArray alloc] init];
+	} else {
+		// Success!
+		NSLog(@"%@",responseString);
+		return [responseString JSONValue];
+	}
+}
+
+
+-(NSArray *)collectWagrs {
+	NSArray *array = [self sendRequest:@"wagers.json" withMethod:@"GET" withContentType:@"application/x-www-form-urlencoded" withData:nil];	
+	return [[NSArray alloc] initWithArray:array];
+}
+
+-(NSArray *) collectWagrParticipants:(NSString *)wagerId {
+	NSString *dataString=[NSString stringWithFormat:@"wager_id=%@", wagerId]; 
+	NSArray *array = [self sendRequest:@"wagers/get_participants.json" withMethod:@"GET" withContentType:@"application/x-www-form-urlencoded" withData:dataString];	
+	return [[NSArray alloc] initWithArray:array];
+	[dataString release];
+	[array release];
 }
 
 

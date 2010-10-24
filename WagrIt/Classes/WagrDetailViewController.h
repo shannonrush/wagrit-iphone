@@ -11,9 +11,13 @@
 
 @interface WagrDetailViewController : UIViewController {
 	NSDictionary *selectedWagr;
+	UILabel *description;
+	UILabel *reward;
+	NSArray *participants;
 }
 
 @property (nonatomic, retain) NSDictionary *selectedWagr;
-
+@property (nonatomic, retain) IBOutlet UILabel *description;
+@property (nonatomic, retain) IBOutlet UILabel *reward;
 
 @end

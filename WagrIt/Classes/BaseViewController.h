@@ -11,9 +11,12 @@
 
 @interface BaseViewController : UIViewController {
 	NSArray *wagrs;
-
 }
 
+-(NSArray *) sendRequest:(NSString *)path withMethod:(NSString *)method withContentType:(NSString *)contentType withData:(NSString *)data;
+-(void) noConnectionAlert;
+-(NSURL *) constructURL:(NSString *)path;
 -(NSArray *)collectWagrs;
+-(NSArray *)collectWagrParticipants:(NSString *)wagerId;
 
 @end

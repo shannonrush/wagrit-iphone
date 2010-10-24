@@ -13,6 +13,7 @@
 
 @synthesize window;
 @synthesize loginViewController;
+@synthesize baseDomain;
 
 
 #pragma mark -
@@ -25,9 +26,9 @@
 	[aViewController release];
 	UIView *controllersView = [loginViewController view];
 	[window addSubview:controllersView];
-    
-    [window makeKeyAndVisible];
-    
+	[window makeKeyAndVisible];
+	[self setBaseDomain:@"http://localhost:3000/"];	//TODO - Set to production value
+
     return YES;
 }
 

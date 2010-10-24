@@ -23,6 +23,7 @@
 		C312C5BC1270B45F00839A4B /* WagrDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */; };
 		C312C5BD1270B45F00839A4B /* WagrDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C312C5BB1270B45F00839A4B /* WagrDetailViewController.xib */; };
 		C312C854127326D900839A4B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C312C853127326D900839A4B /* BaseViewController.m */; };
+		C312C983127385A700839A4B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C312C982127385A700839A4B /* AudioToolbox.framework */; };
 		C3C31C1B126C737B003846A0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C31C19126C737B003846A0 /* LoginViewController.m */; };
 		C3C31C1C126C737B003846A0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C31C1A126C737B003846A0 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		C312C5BB1270B45F00839A4B /* WagrDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WagrDetailViewController.xib; path = Classes/WagrDetailViewController.xib; sourceTree = "<group>"; };
 		C312C852127326D900839A4B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		C312C853127326D900839A4B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C312C982127385A700839A4B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C3C31C18126C737B003846A0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		C3C31C19126C737B003846A0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C3C31C1A126C737B003846A0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/LoginViewController.xib; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				C312C983127385A700839A4B /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +113,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				C312C982127385A700839A4B /* AudioToolbox.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
