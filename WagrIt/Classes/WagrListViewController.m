@@ -83,7 +83,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
 
-	cell.textLabel.text = [[wagrs objectAtIndex:[indexPath row]] valueForKeyPath:@"wager.description"];
+	cell.textLabel.text = [[wagrs objectAtIndex:[indexPath row]] valueForKeyPath:@"description"];
     cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
 	return cell;
 }
@@ -133,7 +133,7 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	selectedWagr = [[wagrs objectAtIndex:[indexPath row]] objectForKey:@"wager"];
+	selectedWagr = [wagrs objectAtIndex:[indexPath row]];
 	//Initialize the detail view controller and display it.
 	WagrDetailViewController *dvController = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:[NSBundle mainBundle]];
 	dvController.selectedWagr = selectedWagr;

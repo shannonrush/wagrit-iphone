@@ -84,18 +84,9 @@
 
 
 -(NSArray *)collectWagrs {
-	NSArray *array = [self sendRequest:@"wagers.json" withMethod:@"GET" withContentType:@"application/x-www-form-urlencoded" withData:nil];	
+	NSArray *array = [self sendRequest:@"wagers/get_wagers.json" withMethod:@"GET" withContentType:@"application/x-www-form-urlencoded" withData:nil];	
 	return [[NSArray alloc] initWithArray:array];
 }
-
--(NSArray *) collectWagrParticipants:(NSString *)wagerId {
-	NSString *dataString=[NSString stringWithFormat:@"wager_id=%@", wagerId]; 
-	NSArray *array = [self sendRequest:@"wagers/get_participants.json" withMethod:@"GET" withContentType:@"application/x-www-form-urlencoded" withData:dataString];	
-	return [[NSArray alloc] initWithArray:array];
-	[dataString release];
-	[array release];
-}
-
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
