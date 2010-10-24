@@ -12,7 +12,6 @@
 
 @implementation WagrListViewController
 
-
 #pragma mark -
 #pragma mark View lifecycle
 
