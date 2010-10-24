@@ -29,7 +29,6 @@
 			1D6058900D05DD3D006BFB54 /* WagrIt */,
 		);
 		breakpoints = (
-			C312CB841274C96C00839A4B /* WagrDetailViewController.m:45 */,
 		);
 		codeSenseManager = C3C31C0D126C71B9003846A0 /* Code sense */;
 		executables = (
@@ -616,6 +615,9 @@
 			C312CBAB1274CD4900839A4B /* PBXTextBookmark */ = C312CBAB1274CD4900839A4B /* PBXTextBookmark */;
 			C312CBAC1274CD4900839A4B /* PBXTextBookmark */ = C312CBAC1274CD4900839A4B /* PBXTextBookmark */;
 			C312CBAD1274CD4E00839A4B /* PBXTextBookmark */ = C312CBAD1274CD4E00839A4B /* PBXTextBookmark */;
+			C312CBB11274D59A00839A4B /* PBXTextBookmark */ = C312CBB11274D59A00839A4B /* PBXTextBookmark */;
+			C312CBB21274D59A00839A4B /* PBXTextBookmark */ = C312CBB21274D59A00839A4B /* PBXTextBookmark */;
+			C312CBB41274D59D00839A4B /* PBXTextBookmark */ = C312CBB41274D59D00839A4B /* PBXTextBookmark */;
 		};
 		sourceControlManager = C3C31C0C126C71B9003846A0 /* Source Control */;
 		userBuildSettings = {
@@ -664,9 +666,9 @@
 	};
 	C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1183}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1222}}";
 			sepNavSelRange = "{2026, 0}";
-			sepNavVisRange = "{714, 1313}";
+			sepNavVisRange = "{0, 1108}";
 		};
 	};
 	C312C5BF1270B46800839A4B /* PlistBookmark */ = {
@@ -5879,24 +5881,6 @@
 		vrLen = 467;
 		vrLoc = 1738;
 	};
-	C312CB841274C96C00839A4B /* WagrDetailViewController.m:45 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
-		functionName = "-tableView:numberOfRowsInSection:";
-		hitCount = 1;
-		ignoreCount = 0;
-		lineNumber = 45;
-		location = WagrIt;
-		modificationTime = 309644613.247748;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
 	C312CB881274C97300839A4B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
@@ -6157,6 +6141,36 @@
 		vrLen = 1313;
 		vrLoc = 714;
 	};
+	C312CBB11274D59A00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C49D126FBE1600839A4B /* WagrListViewController.h */;
+		name = "WagrListViewController.h: 18";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 184;
+		vrLoc = 150;
+	};
+	C312CBB21274D59A00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 61";
+		rLen = 0;
+		rLoc = 2026;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 1238;
+	};
+	C312CBB41274D59D00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 61";
+		rLen = 0;
+		rLoc = 2026;
+		rType = 0;
+		vrLen = 1314;
+		vrLoc = 714;
+	};
 	C3C31BF7126C71A2003846A0 /* WagrIt */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -6164,7 +6178,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
