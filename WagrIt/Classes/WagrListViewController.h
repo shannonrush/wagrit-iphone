@@ -15,6 +15,4 @@
 	NSDictionary *selectedWagr;
 }
 
-
-
 @end

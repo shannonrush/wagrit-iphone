@@ -314,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>C3C31C00126C71B9003846A0</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WagrListViewController.m</string>
+								<string>WagrDetailViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,24 +322,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C3C31C01126C71B9003846A0</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WagrListViewController.m</string>
+										<string>WagrDetailViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C312CB741274BEBD00839A4B</string>
+										<string>C312CBAD1274CD4E00839A4B</string>
 										<key>history</key>
 										<array>
 											<string>C312C5BF1270B46800839A4B</string>
 											<string>C312C92712737F2E00839A4B</string>
 											<string>C312C92812737F2E00839A4B</string>
-											<string>C312CAB51273B7DE00839A4B</string>
-											<string>C312CAB61273B7DE00839A4B</string>
 											<string>C312CAB71273B7DE00839A4B</string>
 											<string>C312CAF51273BBB000839A4B</string>
 											<string>C312CB2E1274AFE700839A4B</string>
 											<string>C312CB601274B94B00839A4B</string>
-											<string>C312CB6C1274BD2A00839A4B</string>
-											<string>C312CB6D1274BD2A00839A4B</string>
+											<string>C312CBA81274CD4900839A4B</string>
+											<string>C312CBA91274CD4900839A4B</string>
+											<string>C312CBAA1274CD4900839A4B</string>
+											<string>C312CBAB1274CD4900839A4B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -660,6 +660,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>C312CBAE1274CD4E00839A4B</string>
 		<string>C312C7381270E6F800839A4B</string>
 		<string>C312C72D1270E6A900839A4B</string>
 		<string>/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt.xcodeproj</string>

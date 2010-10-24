@@ -13,11 +13,12 @@
 	NSDictionary *selectedWagr;
 	UILabel *description;
 	UILabel *reward;
-	NSArray *participants;
+	UITableView *participants;
 }
 
 @property (nonatomic, retain) NSDictionary *selectedWagr;
 @property (nonatomic, retain) IBOutlet UILabel *description;
 @property (nonatomic, retain) IBOutlet UILabel *reward;
+@property (nonatomic, retain) IBOutlet UITableView *participants;
 
 @end
