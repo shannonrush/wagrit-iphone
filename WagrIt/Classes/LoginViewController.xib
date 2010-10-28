@@ -45,7 +45,7 @@
 					<object class="IBUITextField" id="738387425">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 231}, {280, 31}}</string>
+						<string key="NSFrame">{{20, 137}, {280, 31}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -77,7 +77,7 @@
 					<object class="IBUIButton" id="229436871">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{80, 366}, {160, 40}}</string>
+						<string key="NSFrame">{{80, 315}, {160, 40}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -106,7 +106,7 @@
 					<object class="IBUITextField" id="928661411">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 270}, {280, 31}}</string>
+						<string key="NSFrame">{{20, 176}, {280, 31}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -132,7 +132,7 @@
 					<object class="IBUIImageView" id="624754270">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 20}, {320, 160}}</string>
+						<string key="NSFrameSize">{320, 101}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -282,23 +282,23 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>LoginViewController</string>
 					<string>UIResponder</string>
-					<string>{{-2, 181}, {320, 480}}</string>
+					<string>{{365, 174}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABBoAAAw30AAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABBoAAAw5WAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAwx4AAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAwu4AAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABBoAAAw1EAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABBoAAAw4IAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABCoAAAw60AAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABCoAAAw5MAAA</bytes>
 					</object>
 				</object>
 			</object>
@@ -318,7 +318,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">18</int>
+			<int key="maxID">19</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -608,7 +608,7 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="NS.key.0">login_header.png</string>
-			<string key="NS.object.0">{320, 160}</string>
+			<string key="NS.object.0">{320, 101}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">123</string>
 	</data>

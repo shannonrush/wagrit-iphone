@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,6 +270,8 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>C312CD9812799E1A00839A4B</string>
+								<string>C312CD9712799CCA00839A4B</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C77FABC04509CD000000102</string>
@@ -279,8 +279,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>16</integer>
+									<integer>9</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -302,7 +302,7 @@
 							<real>226</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>165 98 1280 674 0 0 1280 778 </string>
+						<string>0 104 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -313,12 +313,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>C3C31C00126C71B9003846A0</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WagrListViewController.m</string>
+								<string>LoginViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C3C31C01126C71B9003846A0</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WagrListViewController.m</string>
+										<string>LoginViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C312CD9012791C3300839A4B</string>
+										<string>C312CDAF1279A1EE00839A4B</string>
 										<key>history</key>
 										<array>
 											<string>C312C5BF1270B46800839A4B</string>
@@ -338,15 +340,16 @@
 											<string>C312C92812737F2E00839A4B</string>
 											<string>C312CBA81274CD4900839A4B</string>
 											<string>C312CBCF1274E5E600839A4B</string>
-											<string>C312CBD01274E5E600839A4B</string>
-											<string>C312CBD11274E5E600839A4B</string>
 											<string>C312CC411279045300839A4B</string>
 											<string>C312CC431279045300839A4B</string>
 											<string>C312CCB7127907B800839A4B</string>
-											<string>C312CCDE12790A4300839A4B</string>
 											<string>C312CD30127916EB00839A4B</string>
 											<string>C312CD8812791C0200839A4B</string>
-											<string>C312CD8E12791C2E00839A4B</string>
+											<string>C312CDA51279A17E00839A4B</string>
+											<string>C312CDA61279A17E00839A4B</string>
+											<string>C312CDA71279A17E00839A4B</string>
+											<string>C312CDA81279A17E00839A4B</string>
+											<string>C312CDA91279A17E00839A4B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -362,7 +365,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1032, 481}}</string>
 								<key>RubberWindowFrame</key>
-								<string>165 98 1280 674 0 0 1280 778 </string>
+								<string>0 104 1280 674 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -441,7 +444,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {1032, 120}}</string>
 										<key>RubberWindowFrame</key>
-										<string>165 98 1280 674 0 0 1280 778 </string>
+										<string>0 104 1280 674 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -663,13 +666,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>C312CD8B12791C0200839A4B</string>
 		<string>C312CC5B127904C000839A4B</string>
 		<string>C312CC581279049E00839A4B</string>
 		<string>/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>165 98 1280 674 0 0 1280 778 </string>
+	<string>0 104 1280 674 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
