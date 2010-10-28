@@ -13,6 +13,11 @@
 
 @interface WagrListViewController : BaseViewController {
 	NSDictionary *selectedWagr;
+	NSArray *wagrs;
+	UITableView *tableView;
 }
+
+@property (nonatomic, retain) IBOutlet UITableView *tableView;
+
 
 @end

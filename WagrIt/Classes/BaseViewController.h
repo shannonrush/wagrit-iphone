@@ -10,13 +10,13 @@
 
 
 @interface BaseViewController : UIViewController {
-	NSArray *wagrs;
+	NSMutableData *responseData;
 }
 
--(NSArray *) sendRequest:(NSString *)path withMethod:(NSString *)method withContentType:(NSString *)contentType withData:(NSString *)data;
 -(void) noConnectionAlert;
 -(NSURL *) constructURL:(NSString *)path;
--(NSArray *)collectWagrs;
--(NSArray *)collectWagrParticipants:(NSString *)wagerId;
+-(void) collectWagrs;
+-(void) asynchRequest:(NSString *)path withMethod:(NSString *)method withContentType:(NSString *)contentType withData:(NSString *)data;
+-(void) handleAsynchResponse:(NSDictionary *)data;
 
 @end

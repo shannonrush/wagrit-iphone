@@ -12,13 +12,17 @@
 
 @implementation WagrListViewController
 
+@synthesize tableView;
+
 #pragma mark -
 #pragma mark View lifecycle
 
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	wagrs = [self collectWagrs];
+	self.title = @"Wagrs";
+	[self collectWagrs];
+	//wagrs = [[NSArray alloc] init];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
@@ -56,10 +60,10 @@
 #pragma mark -
 #pragma mark Table view data source
 
-- (WagrListViewController *) init {
-	if (self == [super init]) self.title = @"Wagrs";
-	return self;
-}
+//- (WagrListViewController *) init {
+//	if (self == [super init]) 
+//	return self;
+//}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
@@ -169,6 +173,11 @@
 - (void)dealloc {
     [super dealloc];
 }
+
+- (void) handleAsynchResponse:(NSDictionary *)data {
+	wagrs = [[NSArray alloc] initWithArray:[data objectForKey:@"wagers"]];
+	[tableView reloadData];
+}		
 
 
 @end

@@ -26,7 +26,7 @@
 		C312C983127385A700839A4B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C312C982127385A700839A4B /* AudioToolbox.framework */; };
 		C312CBB91274DB2F00839A4B /* login_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C312CBB81274DB2F00839A4B /* login_header@2x.png */; };
 		C312CBBF1274DE1E00839A4B /* login_header.png in Resources */ = {isa = PBXBuildFile; fileRef = C312CBBE1274DE1E00839A4B /* login_header.png */; };
-		C312CBCE1274E4E200839A4B /* lt_green_striped.png in Resources */ = {isa = PBXBuildFile; fileRef = C312CBCD1274E4E200839A4B /* lt_green_striped.png */; };
+		C312CC2A1276057100839A4B /* wagr_detail_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C312CC291276057100839A4B /* wagr_detail_bg.png */; };
 		C3C31C1B126C737B003846A0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C31C19126C737B003846A0 /* LoginViewController.m */; };
 		C3C31C1C126C737B003846A0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C31C1A126C737B003846A0 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
@@ -64,7 +64,7 @@
 		C312C982127385A700839A4B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C312CBB81274DB2F00839A4B /* login_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_header@2x.png"; sourceTree = "<group>"; };
 		C312CBBE1274DE1E00839A4B /* login_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_header.png; sourceTree = "<group>"; };
-		C312CBCD1274E4E200839A4B /* lt_green_striped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lt_green_striped.png; sourceTree = "<group>"; };
+		C312CC291276057100839A4B /* wagr_detail_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wagr_detail_bg.png; path = "../../../Project Resources/wagrit_iphone/wagr_detail_bg.png"; sourceTree = SOURCE_ROOT; };
 		C3C31C18126C737B003846A0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		C3C31C19126C737B003846A0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C3C31C1A126C737B003846A0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/LoginViewController.xib; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C312CBCD1274E4E200839A4B /* lt_green_striped.png */,
+				C312CC291276057100839A4B /* wagr_detail_bg.png */,
 				C312CBBE1274DE1E00839A4B /* login_header.png */,
 				C312CBB81274DB2F00839A4B /* login_header@2x.png */,
 				C312C5BB1270B45F00839A4B /* WagrDetailViewController.xib */,
@@ -231,7 +231,7 @@
 				C312C5BD1270B45F00839A4B /* WagrDetailViewController.xib in Resources */,
 				C312CBB91274DB2F00839A4B /* login_header@2x.png in Resources */,
 				C312CBBF1274DE1E00839A4B /* login_header.png in Resources */,
-				C312CBCE1274E4E200839A4B /* lt_green_striped.png in Resources */,
+				C312CC2A1276057100839A4B /* wagr_detail_bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

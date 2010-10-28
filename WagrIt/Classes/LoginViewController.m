@@ -16,43 +16,22 @@
 @synthesize passwordField;
 
 - (IBAction)loginUser:(id)sender {
-    NSURL *url = [NSURL URLWithString:@"http://localhost:3000/session.json"]; 
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
-    NSMutableData *responseData;
-    NSString *dataString=[NSString stringWithFormat:@"login=%@&password=%@",loginField.text, passwordField.text]; 
-    
-    [request setHTTPBody:[dataString dataUsingEncoding:NSISOLatin1StringEncoding]];
-    [request setHTTPMethod:@"POST"]; 
-    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"content-type"];
-    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
-    
-    if(connection) { 
-        NSError *WSerror; 
-        NSURLResponse *WSresponse; 
-        responseData = [[NSMutableData alloc ] initWithData:[NSURLConnection sendSynchronousRequest:request returningResponse:&WSresponse error:&WSerror]]; 
-        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-        NSDictionary *dictionary = [responseString JSONValue];
-        NSLog(@"Dictionary value for \"success\" is \"%@\"", [dictionary objectForKey:@"success"]);
-        NSLog(@"%@",responseString);
-		
-		// root VC for nav
-		WagrListViewController*  rootVC = [[WagrListViewController alloc] init];
-		
-		// Create the nav controller and add the view controllers.
+    NSString *dataString=[NSString stringWithFormat:@"login=%@&password=%@",loginField.text, passwordField.text];
+	[self asynchRequest:@"session.json" withMethod:@"POST" withContentType:@"application/x-www-form-urlencoded" withData:dataString];		
+}
+
+-(void) handleAsynchResponse:(NSDictionary *)data{
+	if ([data objectForKey:@"success"]) {
+		WagrListViewController*  rootVC = [[WagrListViewController alloc] init];	
 		UINavigationController*  navController = [[UINavigationController alloc] initWithRootViewController:rootVC];
-		
-		// Display the nav controller modally.
-		[self presentModalViewController:navController animated:YES];
-		
-		// Release the view controllers to prevent over-retention.
-		
+		[self presentModalViewController:navController animated:YES];	
 		[rootVC release];	
 		[navController release];
-        [responseString release];
-		
-    } 
-    [connection release];
-    [responseData release];
+		[responseData release];
+	} else {
+		[loginField setText:@""];
+		[passwordField setText:@""];
+	}
 }
 
 /*
@@ -104,6 +83,8 @@
 	//[passwordField release];
     [super dealloc];
 }
+
+		
 
 
 @end
