@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -301,8 +301,6 @@
 							<string>MainColumn</string>
 							<real>226</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>0 104 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -313,8 +311,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -332,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C312CDAF1279A1EE00839A4B</string>
+										<string>C312CE051279B83000839A4B</string>
 										<key>history</key>
 										<array>
 											<string>C312C5BF1270B46800839A4B</string>
@@ -346,10 +342,10 @@
 											<string>C312CD30127916EB00839A4B</string>
 											<string>C312CD8812791C0200839A4B</string>
 											<string>C312CDA51279A17E00839A4B</string>
-											<string>C312CDA61279A17E00839A4B</string>
-											<string>C312CDA71279A17E00839A4B</string>
 											<string>C312CDA81279A17E00839A4B</string>
-											<string>C312CDA91279A17E00839A4B</string>
+											<string>C312CDBA1279A74E00839A4B</string>
+											<string>C312CDBB1279A74E00839A4B</string>
+											<string>C312CDE91279ACB100839A4B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -364,8 +360,6 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {1032, 481}}</string>
-								<key>RubberWindowFrame</key>
-								<string>0 104 1280 674 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -443,8 +437,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1032, 120}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 104 1280 674 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -528,6 +520,8 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1280, 137}}</string>
+						<key>RubberWindowFrame</key>
+						<string>124 95 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -602,7 +596,11 @@
 							</array>
 							<key>Frame</key>
 							<string>{{625, 0}, {655, 258}}</string>
+							<key>RubberWindowFrame</key>
+							<string>124 95 1280 674 0 0 1280 778 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>124 95 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -671,7 +669,7 @@
 		<string>/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 104 1280 674 0 0 1280 778 </string>
+	<string>124 95 1280 674 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

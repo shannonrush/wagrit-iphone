@@ -21,7 +21,7 @@
 }
 
 -(void) handleAsynchResponse:(NSDictionary *)data{
-	if ([data objectForKey:@"success"]) {
+	if (CFBooleanGetValue([data objectForKey:@"success"])) {
 		WagrListViewController*  rootVC = [[WagrListViewController alloc] init];	
 		UINavigationController*  navController = [[UINavigationController alloc] initWithRootViewController:rootVC];
 		[self presentModalViewController:navController animated:YES];	
@@ -38,7 +38,6 @@
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
 		self.view.frame = [[UIScreen mainScreen] applicationFrame];
     }
     return self;
