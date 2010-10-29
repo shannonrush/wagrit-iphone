@@ -8,12 +8,13 @@
 
 #import "WagrDetailViewController.h"
 #import "BaseViewController.h"
+#import "WagrDetailCell.h"
 
 
 @implementation WagrDetailViewController
 
 @synthesize selectedWagr;
-@synthesize description, reward;
+@synthesize participants, description, reward;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -31,7 +32,8 @@
 	[super viewDidLoad];
 	self.title = [self.selectedWagr valueForKeyPath:@"description"];	
     description.text = [self.selectedWagr valueForKeyPath:@"description"];
-	reward.text = [NSString stringWithFormat:@"The winner gets %@", [self.selectedWagr valueForKeyPath:@"reward"]];
+	reward.text = [NSString stringWithFormat:@"The winner gets %@!", [self.selectedWagr valueForKeyPath:@"reward"]];
+	participants.backgroundColor = [UIColor clearColor];
 }
 
 // Participant table
@@ -48,16 +50,24 @@
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	
-	static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
-	
-	cell.textLabel.text = [[[self.selectedWagr objectForKey:@"participants"] objectAtIndex:[indexPath row]] valueForKeyPath:@"user_name"];
-	return cell;
+	static NSString *CellIdentifier = @"customCell";
+	WagrDetailCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	if (cell == nil){
+		NSArray *nibObjects = [[NSBundle mainBundle] loadNibNamed:@"WagrDetailCell" owner:nil options:nil];
+		for (id currentObject in nibObjects) {
+			if ([currentObject isKindOfClass:[WagrDetailCell class]]) {
+				cell = (WagrDetailCell *)currentObject;
+			}
+		}
+	}
+	NSDictionary *participant = [[self.selectedWagr objectForKey:@"participants"]objectAtIndex:[indexPath row]];
+	[[cell cellMain] setText:[NSString stringWithFormat:@"Tap if %@ was right!", [participant valueForKeyPath:@"user_name"]]];
+	[[cell cellDetails] setText:[NSString stringWithFormat:@"%@ guesses %@", [participant valueForKeyPath:@"user_name"], [participant valueForKeyPath:@"guess"]]];
+
+	 return cell;
+	//customCell.textLabel.text = 	[NSString stringWithFormat:@"Tap if %@ was right!", [[[self.selectedWagr objectForKey:@"participants"] objectAtIndex:[indexPath row]] valueForKeyPath:@"user_name"]];
+	//customCell.detailTextLabel.text = [NSString stringWithFormat:@"%@ guesses %@", [[[self.selectedWagr objectForKey:@"participants"] objectAtIndex:[indexPath row]] valueForKeyPath:@"user_name"], [[[self.selectedWagr objectForKey:@"participants"] objectAtIndex:[indexPath row]] valueForKeyPath:@"guess"]];
+	//return customCell;
 }
 
 
