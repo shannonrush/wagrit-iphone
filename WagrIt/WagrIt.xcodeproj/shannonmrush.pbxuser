@@ -388,6 +388,8 @@
 			C312CF23127C682100839A4B /* PBXTextBookmark */ = C312CF23127C682100839A4B /* PBXTextBookmark */;
 			C312CF26127C683C00839A4B /* PBXTextBookmark */ = C312CF26127C683C00839A4B /* PBXTextBookmark */;
 			C312CF29127C686900839A4B /* PBXTextBookmark */ = C312CF29127C686900839A4B /* PBXTextBookmark */;
+			C312CF2A127C69E700839A4B /* PBXTextBookmark */ = C312CF2A127C69E700839A4B /* PBXTextBookmark */;
+			C312CF2B127C69EC00839A4B /* PBXTextBookmark */ = C312CF2B127C69EC00839A4B /* PBXTextBookmark */;
 		};
 		sourceControlManager = C3C31C0C126C71B9003846A0 /* Source Control */;
 		userBuildSettings = {
@@ -416,9 +418,9 @@
 	};
 	C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1365}}";
-			sepNavSelRange = "{3544, 0}";
-			sepNavVisRange = "{2575, 1466}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1521}}";
+			sepNavSelRange = "{3203, 337}";
+			sepNavVisRange = "{1825, 1472}";
 		};
 	};
 	C312C5BF1270B46800839A4B /* PlistBookmark */ = {
@@ -2149,6 +2151,20 @@
 		vrLen = 1010;
 		vrLoc = 1301;
 	};
+	C312CD9B12799F1300839A4B /* login_header.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = login_header.png;
+		path = "/Users/shannonmrush/Project Resources/wagrit_iphone/login_header.png";
+		sourceTree = "<absolute>";
+	};
+	C312CD9D12799F2B00839A4B /* login_header@2x.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "login_header@2x.png";
+		path = "/Users/shannonmrush/Project Resources/wagrit_iphone/login_header@2x.png";
+		sourceTree = "<absolute>";
+	};
 	C312CDA51279A17E00839A4B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
@@ -3587,6 +3603,26 @@
 		name = "WagrDetailViewController.m: 86";
 		rLen = 0;
 		rLoc = 3544;
+		rType = 0;
+		vrLen = 1466;
+		vrLoc = 2575;
+	};
+	C312CF2A127C69E700839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 82";
+		rLen = 337;
+		rLoc = 3203;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 2791;
+	};
+	C312CF2B127C69EC00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 82";
+		rLen = 337;
+		rLoc = 3203;
 		rType = 0;
 		vrLen = 1466;
 		vrLoc = 2575;
