@@ -61,15 +61,28 @@
 		}
 	}
 	NSDictionary *participant = [[self.selectedWagr objectForKey:@"participants"]objectAtIndex:[indexPath row]];
-	[[cell cellMain] setText:[NSString stringWithFormat:@"Tap if %@ was right!", [participant valueForKeyPath:@"user_name"]]];
-	[[cell cellDetails] setText:[NSString stringWithFormat:@"%@ guesses %@", [participant valueForKeyPath:@"user_name"], [participant valueForKeyPath:@"guess"]]];
-
+	if (CFBooleanGetValue([participant objectForKey:@"won_wager"])) {
+		[[cell cellMain] setText:[NSString stringWithFormat:@"%@ was right!", [participant valueForKeyPath:@"user_name"]]];
+		cell.accessoryType = UITableViewCellAccessoryCheckmark;
+	} else {
+		[[cell cellMain] setText:[NSString stringWithFormat:@"Tap if %@ was right!", [participant valueForKeyPath:@"user_name"]]];
+		cell.accessoryType = UITableViewCellAccessoryNone;
+	}
+	[[cell cellDetails] setText:[NSString stringWithFormat:@"%@ guessed %@", [participant valueForKeyPath:@"user_name"], [participant valueForKeyPath:@"guess"]]];
 	 return cell;
-	//customCell.textLabel.text = 	[NSString stringWithFormat:@"Tap if %@ was right!", [[[self.selectedWagr objectForKey:@"participants"] objectAtIndex:[indexPath row]] valueForKeyPath:@"user_name"]];
-	//customCell.detailTextLabel.text = [NSString stringWithFormat:@"%@ guesses %@", [[[self.selectedWagr objectForKey:@"participants"] objectAtIndex:[indexPath row]] valueForKeyPath:@"user_name"], [[[self.selectedWagr objectForKey:@"participants"] objectAtIndex:[indexPath row]] valueForKeyPath:@"guess"]];
-	//return customCell;
 }
 
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	NSDictionary *participant = [[self.selectedWagr objectForKey:@"participants"]objectAtIndex:[indexPath row]];
+	NSNumber *status = [NSNumber numberWithBool:!CFBooleanGetValue([participant objectForKey:@"won_wager"])];
+	[participant setValue:status forKey:@"won_wager"];
+	[participants reloadData];
+	//NSString *dataString=[NSString stringWithFormat:@"wager_participant[won_wager]=%@",status];
+//	NSString *urlString=[NSString stringWithFormat:@"wager_participants/%@.json",[participant valueForKeyPath:@"id"]];
+//	[self asynchRequest:urlString withMethod:@"PUT" withContentType:@"application/x-www-form-urlencoded" withData:dataString];
+}	
 
 /*
 // Override to allow orientations other than the default portrait orientation.

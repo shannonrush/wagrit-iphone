@@ -352,6 +352,42 @@
 			C312CE94127B05E200839A4B /* PBXTextBookmark */ = C312CE94127B05E200839A4B /* PBXTextBookmark */;
 			C312CE9D127B07A100839A4B /* PBXTextBookmark */ = C312CE9D127B07A100839A4B /* PBXTextBookmark */;
 			C312CEAA127B088C00839A4B /* PBXTextBookmark */ = C312CEAA127B088C00839A4B /* PBXTextBookmark */;
+			C312CEB3127C486300839A4B /* PBXTextBookmark */ = C312CEB3127C486300839A4B /* PBXTextBookmark */;
+			C312CEB6127C488300839A4B /* PBXTextBookmark */ = C312CEB6127C488300839A4B /* PBXTextBookmark */;
+			C312CEB9127C497A00839A4B /* PBXTextBookmark */ = C312CEB9127C497A00839A4B /* PBXTextBookmark */;
+			C312CEBE127C499900839A4B /* PBXTextBookmark */ = C312CEBE127C499900839A4B /* PBXTextBookmark */;
+			C312CEBF127C499900839A4B /* PBXTextBookmark */ = C312CEBF127C499900839A4B /* PBXTextBookmark */;
+			C312CEC1127C49AB00839A4B /* PBXTextBookmark */ = C312CEC1127C49AB00839A4B /* PBXTextBookmark */;
+			C312CEC4127C4AA200839A4B /* PBXTextBookmark */ = C312CEC4127C4AA200839A4B /* PBXTextBookmark */;
+			C312CEC5127C4AB700839A4B /* PBXTextBookmark */ = C312CEC5127C4AB700839A4B /* PBXTextBookmark */;
+			C312CEC6127C4B1400839A4B /* PBXTextBookmark */ = C312CEC6127C4B1400839A4B /* PBXTextBookmark */;
+			C312CECD127C4BF300839A4B /* PBXTextBookmark */ = C312CECD127C4BF300839A4B /* PBXTextBookmark */;
+			C312CECE127C4BF300839A4B /* PBXTextBookmark */ = C312CECE127C4BF300839A4B /* PBXTextBookmark */;
+			C312CED0127C4C0600839A4B /* PBXTextBookmark */ = C312CED0127C4C0600839A4B /* PBXTextBookmark */;
+			C312CED1127C4C1800839A4B /* PBXTextBookmark */ = C312CED1127C4C1800839A4B /* PBXTextBookmark */;
+			C312CED2127C4E3600839A4B /* PBXTextBookmark */ = C312CED2127C4E3600839A4B /* PBXTextBookmark */;
+			C312CED5127C4F1E00839A4B /* PBXTextBookmark */ = C312CED5127C4F1E00839A4B /* PBXTextBookmark */;
+			C312CED6127C4F1E00839A4B /* PBXTextBookmark */ = C312CED6127C4F1E00839A4B /* PBXTextBookmark */;
+			C312CED7127C4F1E00839A4B /* PBXTextBookmark */ = C312CED7127C4F1E00839A4B /* PBXTextBookmark */;
+			C312CEE9127C5EAE00839A4B /* PBXTextBookmark */ = C312CEE9127C5EAE00839A4B /* PBXTextBookmark */;
+			C312CEF0127C5F1B00839A4B /* PBXTextBookmark */ = C312CEF0127C5F1B00839A4B /* PBXTextBookmark */;
+			C312CEF1127C5F1B00839A4B /* PBXTextBookmark */ = C312CEF1127C5F1B00839A4B /* PBXTextBookmark */;
+			C312CEF3127C5F3000839A4B /* PBXTextBookmark */ = C312CEF3127C5F3000839A4B /* PBXTextBookmark */;
+			C312CEF6127C5F7B00839A4B /* PBXTextBookmark */ = C312CEF6127C5F7B00839A4B /* PBXTextBookmark */;
+			C312CEFB127C5FA300839A4B /* PBXTextBookmark */ = C312CEFB127C5FA300839A4B /* PBXTextBookmark */;
+			C312CEFF127C5FEB00839A4B /* PBXTextBookmark */ = C312CEFF127C5FEB00839A4B /* PBXTextBookmark */;
+			C312CF07127C60DB00839A4B /* PBXTextBookmark */ = C312CF07127C60DB00839A4B /* PBXTextBookmark */;
+			C312CF0B127C619B00839A4B /* PBXTextBookmark */ = C312CF0B127C619B00839A4B /* PBXTextBookmark */;
+			C312CF11127C621700839A4B /* PBXTextBookmark */ = C312CF11127C621700839A4B /* PBXTextBookmark */;
+			C312CF12127C637E00839A4B /* PBXTextBookmark */ = C312CF12127C637E00839A4B /* PBXTextBookmark */;
+			C312CF13127C637E00839A4B /* PBXTextBookmark */ = C312CF13127C637E00839A4B /* PBXTextBookmark */;
+			C312CF1E127C649000839A4B /* XCBuildMessageTextBookmark */ = C312CF1E127C649000839A4B /* XCBuildMessageTextBookmark */;
+			C312CF1F127C649000839A4B /* PBXTextBookmark */ = C312CF1F127C649000839A4B /* PBXTextBookmark */;
+			C312CF21127C64A300839A4B /* PBXTextBookmark */ = C312CF21127C64A300839A4B /* PBXTextBookmark */;
+			C312CF22127C64BF00839A4B /* PBXTextBookmark */ = C312CF22127C64BF00839A4B /* PBXTextBookmark */;
+			C312CF23127C682100839A4B /* PBXTextBookmark */ = C312CF23127C682100839A4B /* PBXTextBookmark */;
+			C312CF26127C683C00839A4B /* PBXTextBookmark */ = C312CF26127C683C00839A4B /* PBXTextBookmark */;
+			C312CF29127C686900839A4B /* PBXTextBookmark */ = C312CF29127C686900839A4B /* PBXTextBookmark */;
 		};
 		sourceControlManager = C3C31C0C126C71B9003846A0 /* Source Control */;
 		userBuildSettings = {
@@ -380,9 +416,9 @@
 	};
 	C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2161, 1235}}";
-			sepNavSelRange = "{2479, 0}";
-			sepNavVisRange = "{1351, 1965}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1365}}";
+			sepNavSelRange = "{3544, 0}";
+			sepNavVisRange = "{2575, 1466}";
 		};
 	};
 	C312C5BF1270B46800839A4B /* PlistBookmark */ = {
@@ -500,7 +536,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 61";
 		rLen = 0;
-		rLoc = 3023;
+		rLoc = 3543;
 		rType = 0;
 		vrLen = 1108;
 		vrLoc = 0;
@@ -2598,7 +2634,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 59";
 		rLen = 0;
-		rLoc = 2497;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1274;
 		vrLoc = 1293;
@@ -2608,7 +2644,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 59";
 		rLen = 0;
-		rLoc = 2497;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1251;
 		vrLoc = 1293;
@@ -2628,7 +2664,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 59";
 		rLen = 0;
-		rLoc = 2497;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 630;
 		vrLoc = 1293;
@@ -2639,7 +2675,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 69;
+		rLoc = 71;
 		rType = 1;
 	};
 	C312CE3A127A56EB00839A4B /* PBXTextBookmark */ = {
@@ -2647,7 +2683,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 61";
 		rLen = 0;
-		rLoc = 2999;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1517;
 		vrLoc = 920;
@@ -2657,7 +2693,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 61";
 		rLen = 0;
-		rLoc = 2999;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1545;
 		vrLoc = 920;
@@ -2667,7 +2703,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 61";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1572;
 		vrLoc = 920;
@@ -2677,7 +2713,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 60";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1592;
 		vrLoc = 1163;
@@ -2687,7 +2723,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 59";
 		rLen = 0;
-		rLoc = 2694;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1561;
 		vrLoc = 1163;
@@ -2697,7 +2733,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 59";
 		rLen = 0;
-		rLoc = 2694;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1561;
 		vrLoc = 1163;
@@ -2737,7 +2773,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 59";
 		rLen = 0;
-		rLoc = 2694;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1559;
 		vrLoc = 1165;
@@ -2747,7 +2783,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 61";
 		rLen = 0;
-		rLoc = 3020;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1579;
 		vrLoc = 1166;
@@ -2757,7 +2793,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 51";
 		rLen = 0;
-		rLoc = 2496;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 1166;
@@ -2766,8 +2802,8 @@
 		isa = PBXTextBookmark;
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 53";
-		rLen = 2;
-		rLoc = 2696;
+		rLen = 0;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1483;
 		vrLoc = 1166;
@@ -2776,8 +2812,8 @@
 		isa = PBXTextBookmark;
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 53";
-		rLen = 2;
-		rLoc = 2696;
+		rLen = 0;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1486;
 		vrLoc = 1166;
@@ -2816,8 +2852,8 @@
 		isa = PBXTextBookmark;
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 53";
-		rLen = 2;
-		rLoc = 2696;
+		rLen = 0;
+		rLoc = 2805;
 		rType = 0;
 		vrLen = 1486;
 		vrLoc = 1165;
@@ -2867,7 +2903,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 57";
 		rLen = 0;
-		rLoc = 2320;
+		rLoc = 2631;
 		rType = 0;
 		vrLen = 1641;
 		vrLoc = 1321;
@@ -2877,7 +2913,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 57";
 		rLen = 0;
-		rLoc = 2320;
+		rLoc = 2631;
 		rType = 0;
 		vrLen = 1641;
 		vrLoc = 1321;
@@ -2927,7 +2963,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 57";
 		rLen = 0;
-		rLoc = 2320;
+		rLoc = 2631;
 		rType = 0;
 		vrLen = 1639;
 		vrLoc = 1323;
@@ -3161,7 +3197,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 64";
 		rLen = 0;
-		rLoc = 2480;
+		rLoc = 2790;
 		rType = 0;
 		vrLen = 2062;
 		vrLoc = 1351;
@@ -3171,7 +3207,7 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 64";
 		rLen = 0;
-		rLoc = 2480;
+		rLoc = 2790;
 		rType = 0;
 		vrLen = 2062;
 		vrLoc = 1351;
@@ -3191,10 +3227,369 @@
 		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
 		name = "WagrDetailViewController.m: 65";
 		rLen = 0;
-		rLoc = 2479;
+		rLoc = 2789;
 		rType = 0;
 		vrLen = 1965;
 		vrLoc = 1351;
+	};
+	C312CEB3127C486300839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 67";
+		rLen = 0;
+		rLoc = 2805;
+		rType = 0;
+		vrLen = 1460;
+		vrLoc = 1296;
+	};
+	C312CEB6127C488300839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 66";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 1296;
+	};
+	C312CEB9127C497A00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 66";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 1296;
+	};
+	C312CEBE127C499900839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 66";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 1296;
+	};
+	C312CEBF127C499900839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 66";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 1296;
+	};
+	C312CEC1127C49AB00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 66";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 1296;
+	};
+	C312CEC4127C4AA200839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 66";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 1670;
+	};
+	C312CEC5127C4AB700839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 66";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1437;
+		vrLoc = 1296;
+	};
+	C312CEC6127C4B1400839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 65";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1494;
+		vrLoc = 1296;
+	};
+	C312CECD127C4BF300839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 72";
+		rLen = 0;
+		rLoc = 3541;
+		rType = 0;
+		vrLen = 1169;
+		vrLoc = 1927;
+	};
+	C312CECE127C4BF300839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 72";
+		rLen = 0;
+		rLoc = 3541;
+		rType = 0;
+		vrLen = 1169;
+		vrLoc = 1927;
+	};
+	C312CED0127C4C0600839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 72";
+		rLen = 0;
+		rLoc = 3541;
+		rType = 0;
+		vrLen = 1169;
+		vrLoc = 1927;
+	};
+	C312CED1127C4C1800839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 72";
+		rLen = 0;
+		rLoc = 3541;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 1822;
+	};
+	C312CED2127C4E3600839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 72";
+		rLen = 0;
+		rLoc = 3541;
+		rType = 0;
+		vrLen = 729;
+		vrLoc = 1351;
+	};
+	C312CED5127C4F1E00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 24";
+		rLen = 51;
+		rLoc = 645;
+		rType = 0;
+		vrLen = 1298;
+		vrLoc = 215;
+	};
+	C312CED6127C4F1E00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 64";
+		rLen = 0;
+		rLoc = 2208;
+		rType = 0;
+		vrLen = 1265;
+		vrLoc = 1351;
+	};
+	C312CED7127C4F1E00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 66";
+		rLen = 0;
+		rLoc = 2439;
+		rType = 0;
+		vrLen = 1502;
+		vrLoc = 1351;
+	};
+	C312CEE9127C5EAE00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1609;
+		vrLoc = 2264;
+	};
+	C312CEF0127C5F1B00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1703;
+		vrLoc = 2264;
+	};
+	C312CEF1127C5F1B00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1609;
+		vrLoc = 2264;
+	};
+	C312CEF3127C5F3000839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1609;
+		vrLoc = 2264;
+	};
+	C312CEF6127C5F7B00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 2264;
+	};
+	C312CEFB127C5FA300839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 2264;
+	};
+	C312CEFF127C5FEB00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1609;
+		vrLoc = 2264;
+	};
+	C312CF07127C60DB00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 83";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1822;
+		vrLoc = 2087;
+	};
+	C312CF0B127C619B00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1808;
+		vrLoc = 2080;
+	};
+	C312CF11127C621700839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 87";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1702;
+		vrLoc = 2031;
+	};
+	C312CF12127C637E00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 81";
+		rLen = 0;
+		rLoc = 3174;
+		rType = 0;
+		vrLen = 717;
+		vrLoc = 2578;
+	};
+	C312CF13127C637E00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 69";
+		rLen = 0;
+		rLoc = 2626;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 2084;
+	};
+	C312CF1E127C649000839A4B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'statusOptions' undeclared (first use in this function)";
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 81;
+		rType = 1;
+	};
+	C312CF1F127C649000839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3203;
+		rType = 0;
+		vrLen = 1975;
+		vrLoc = 2450;
+	};
+	C312CF21127C64A300839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3203;
+		rType = 0;
+		vrLen = 1975;
+		vrLoc = 2450;
+	};
+	C312CF22127C64BF00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3203;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 2905;
+	};
+	C312CF23127C682100839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1584;
+		vrLoc = 2450;
+	};
+	C312CF26127C683C00839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1592;
+		vrLoc = 2440;
+	};
+	C312CF29127C686900839A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */;
+		name = "WagrDetailViewController.m: 86";
+		rLen = 0;
+		rLoc = 3544;
+		rType = 0;
+		vrLen = 1466;
+		vrLoc = 2575;
 	};
 	C3C31BF7126C71A2003846A0 /* WagrIt */ = {
 		isa = PBXExecutable;
@@ -3251,8 +3646,8 @@
 	};
 	C3C31C19126C737B003846A0 /* LoginViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1053}}";
-			sepNavSelRange = "{641, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1079}}";
+			sepNavSelRange = "{645, 51}";
 			sepNavVisRange = "{215, 1298}";
 		};
 	};
