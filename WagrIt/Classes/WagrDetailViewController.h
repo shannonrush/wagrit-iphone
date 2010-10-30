@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
 
-@interface WagrDetailViewController : UIViewController {
+@interface WagrDetailViewController : BaseViewController {
 	NSDictionary *selectedWagr;
 	UILabel *description;
 	UILabel *reward;

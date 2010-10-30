@@ -9,6 +9,7 @@
 #import "WagrDetailViewController.h"
 #import "BaseViewController.h"
 #import "WagrDetailCell.h"
+#import	"WagrItAppDelegate.h"
 
 
 @implementation WagrDetailViewController
@@ -72,18 +73,21 @@
 	 return cell;
 }
 
-
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	NSDictionary *participant = [[self.selectedWagr objectForKey:@"participants"]objectAtIndex:[indexPath row]];
 	NSNumber *status = [NSNumber numberWithBool:!CFBooleanGetValue([participant objectForKey:@"won_wager"])];
 	[participant setValue:status forKey:@"won_wager"];
 	[participants reloadData];
-	//NSString *dataString=[NSString stringWithFormat:@"wager_participant[won_wager]=%@",status];
-//	NSString *urlString=[NSString stringWithFormat:@"wager_participants/%@.json",[participant valueForKeyPath:@"id"]];
-//	[self asynchRequest:urlString withMethod:@"PUT" withContentType:@"application/x-www-form-urlencoded" withData:dataString];
+	NSString *dataString=[NSString stringWithFormat:@"wager_participant[won_wager]=%@&authenticity_token=%@", status, [WagrItAppDelegate token]];
+	NSString *urlString=[NSString stringWithFormat:@"wager_participants/%@.json",[participant valueForKeyPath:@"id"]];
+	[self asynchRequest:urlString withMethod:@"PUT" withContentType:@"application/x-www-form-urlencoded" withData:dataString];
 }	
 
+-(void)handleAsynchResponse:(NSDictionary *)data {
+	if (!CFBooleanGetValue([data objectForKey:@"success"])) {
+		[self errorAlert:[data objectForKey:@"errors"]];
+	} 
+}
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

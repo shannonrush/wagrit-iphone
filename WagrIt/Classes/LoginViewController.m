@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "WagrListViewController.h"
+#import	"WagrItAppDelegate.h"
 
 
 @implementation LoginViewController
@@ -22,12 +23,14 @@
 
 -(void) handleAsynchResponse:(NSDictionary *)data{
 	if (CFBooleanGetValue([data objectForKey:@"success"])) {
+		[WagrItAppDelegate setToken:[[NSString alloc] initWithString:[data objectForKey:@"token"]]];
 		WagrListViewController*  rootVC = [[WagrListViewController alloc] init];	
 		UINavigationController*  navController = [[UINavigationController alloc] initWithRootViewController:rootVC];
 		[self presentModalViewController:navController animated:YES];	
 		[rootVC release];	
 		[navController release];
 		[responseData release];
+		
 	} else {
 		[loginField setText:@""];
 		[passwordField setText:@""];

@@ -15,12 +15,22 @@
 @synthesize loginViewController;
 @synthesize baseDomain;
 
+#pragma mark -
+#pragma mark Accessors
+
++(NSString *)token {
+	return token;
+}
+
++(void)setToken:(NSString *)auth_token {
+	token = auth_token;
+}
 
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	token = [[NSString alloc]init];
 	LoginViewController *aViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];
 	[self setLoginViewController:aViewController];
 	[aViewController release];
@@ -82,6 +92,7 @@
 
 
 - (void)dealloc {
+	[token release];
 	[loginViewController release];
     [window release];
     [super dealloc];
