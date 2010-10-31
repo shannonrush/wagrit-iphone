@@ -25,5 +25,6 @@
 @property (nonatomic, retain) IBOutlet UIButton *markComplete;
 
 -(IBAction)markComplete:(id)sender;
+-(void)setCompleteConditions;
 
 @end

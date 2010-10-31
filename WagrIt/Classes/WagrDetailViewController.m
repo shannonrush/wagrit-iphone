@@ -27,35 +27,32 @@
 }
 */
 
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.title = [self.selectedWagr valueForKey:@"description"];	
     description.text = [self.selectedWagr valueForKey:@"description"];
 	participants.backgroundColor = [UIColor clearColor];
 	if (CFBooleanGetValue([self.selectedWagr valueForKey:@"complete"])) {
-		markComplete.hidden = YES;
-		reward.text = @"This Wagr Has Ended";
-		participants.allowsSelection = NO;
+		[self setCompleteConditions];
 	} else {
 		reward.text = [NSString stringWithFormat:@"The winner gets %@!", [self.selectedWagr valueForKey:@"reward"]];
 	}
 }
 
-// Participant table
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    // Return the number of sections.
-    return 1;
+-(void)setCompleteConditions {
+	markComplete.hidden = YES;
+	reward.text = @"This Wagr Has Ended";
+	participants.allowsSelection = NO;
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [[self.selectedWagr objectForKey:@"participants"] count];
 }
 
-
-// Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	static NSString *CellIdentifier = @"customCell";
 	WagrDetailCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -109,14 +106,28 @@
 			NSNumber *status = [NSNumber numberWithBool:!CFBooleanGetValue([participant objectForKey:@"won_wager"])];
 			[participant setValue:status forKey:@"won_wager"];
 			[participants reloadData];
-		} else if ([[data valueForKey:@"method"] isEqualToString:@"mark_complete"]) {
+			if (CFBooleanGetValue(status)) {
+				UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"%@ Won!", [participant valueForKey:@"user_name"]] message:@"Is this wagr over now?" delegate:self cancelButtonTitle:nil otherButtonTitles:@"Yes",@"No",nil];
+				[alert show];
+				[alert release];
+			}
+			} else if ([[data valueForKey:@"method"] isEqualToString:@"mark_complete"]) {
 			[self.selectedWagr setValue:[NSNumber numberWithBool:YES] forKey:@"complete"];
-			markComplete.hidden = YES;
-			reward.text = @"This Wagr Has Ended";
+			[self setCompleteConditions];
 			[participants reloadData];
 		}
 	}
 
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+	switch (buttonIndex) {
+		case 0:
+			[self markComplete:nil];
+			break;
+		default:
+			break;
+	}
 }
 /*
 // Override to allow orientations other than the default portrait orientation.
