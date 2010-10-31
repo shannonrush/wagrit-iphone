@@ -24,6 +24,7 @@
 -(void) handleAsynchResponse:(NSDictionary *)data{
 	if (CFBooleanGetValue([data objectForKey:@"success"])) {
 		[WagrItAppDelegate setToken:[[NSString alloc] initWithString:[data objectForKey:@"token"]]];
+		NSLog([data objectForKey:@"token"]);
 		WagrListViewController*  rootVC = [[WagrListViewController alloc] init];	
 		UINavigationController*  navController = [[UINavigationController alloc] initWithRootViewController:rootVC];
 		[self presentModalViewController:navController animated:YES];	

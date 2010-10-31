@@ -61,8 +61,8 @@
 								<int key="NSID">2</int>
 							</object>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="440686827">
-							<string key="NSName">Helvetica</string>
+						<object class="NSFont" key="IBUIFont" id="407609674">
+							<string key="NSName">ArialMT</string>
 							<double key="NSSize">12</double>
 							<int key="NSfFlags">16</int>
 						</object>
@@ -120,7 +120,7 @@
 							<bytes key="NSWhite">MAA</bytes>
 							<reference key="NSCustomColorSpace" ref="284604992"/>
 						</object>
-						<reference key="IBUIFont" ref="440686827"/>
+						<reference key="IBUIFont" ref="407609674"/>
 						<int key="IBUITextAlignment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 						<float key="IBUIMinimumFontSize">17</float>
@@ -282,7 +282,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>LoginViewController</string>
 					<string>UIResponder</string>
-					<string>{{365, 174}, {320, 480}}</string>
+					<string>{{203, 174}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">

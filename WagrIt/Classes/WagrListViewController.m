@@ -85,7 +85,7 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-
+	cell.textLabel.font = [UIFont fontWithName:@"Arial" size:14];
 	cell.textLabel.text = [[wagrs objectAtIndex:[indexPath row]] valueForKeyPath:@"description"];
     cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
 	return cell;
