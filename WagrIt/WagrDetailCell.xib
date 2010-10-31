@@ -103,7 +103,7 @@
 								<int key="IBUINumberOfLines">2</int>
 							</object>
 						</object>
-						<string key="NSFrameSize">{320, 88}</string>
+						<string key="NSFrameSize">{320, 75}</string>
 						<reference key="NSSuperview" ref="320876533"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -116,7 +116,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
 				</object>
-				<string key="NSFrameSize">{320, 88}</string>
+				<string key="NSFrameSize">{320, 75}</string>
 				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
@@ -206,7 +206,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>UIResponder</string>
 					<string>WagrDetailCell</string>
-					<string>{{42, 600}, {320, 88}}</string>
+					<string>{{42, 613}, {320, 75}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

@@ -15,11 +15,15 @@
 	UILabel *description;
 	UILabel *reward;
 	UITableView *participants;
+	UIButton *markComplete;
 }
 
 @property (nonatomic, retain) NSDictionary *selectedWagr;
 @property (nonatomic, retain) IBOutlet UILabel *description;
 @property (nonatomic, retain) IBOutlet UILabel *reward;
 @property (nonatomic, retain) IBOutlet UITableView *participants;
+@property (nonatomic, retain) IBOutlet UIButton *markComplete;
+
+-(IBAction)markComplete:(id)sender;
 
 @end

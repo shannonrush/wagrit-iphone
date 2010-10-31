@@ -14,6 +14,7 @@
 }
 
 -(void) noConnectionAlert;
+-(void) errorAlert:(NSArray *)errors;
 -(NSURL *) constructURL:(NSString *)path;
 -(void) collectWagrs;
 -(void) asynchRequest:(NSString *)path withMethod:(NSString *)method withContentType:(NSString *)contentType withData:(NSString *)data;

@@ -285,7 +285,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {226, 636}}</string>
+							<string>{{0, 0}, {226, 615}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -295,7 +295,7 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {243, 654}}</string>
+						<string>{{0, 0}, {243, 633}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C386C9DA127CE90A0000BCA2</string>
+										<string>C386CA9C127DD8F20000BCA2</string>
 										<key>history</key>
 										<array>
 											<string>C312C5BF1270B46800839A4B</string>
@@ -339,16 +339,16 @@
 											<string>C312CF43127C8ACC00839A4B</string>
 											<string>C312CF44127C8ACC00839A4B</string>
 											<string>C328FCD9127CC84B000618B2</string>
-											<string>C328FCED127CCD75000618B2</string>
 											<string>C328FCEE127CCD75000618B2</string>
 											<string>C328FCEF127CCD75000618B2</string>
-											<string>C328FCF0127CCD75000618B2</string>
 											<string>C328FD10127CD860000618B2</string>
-											<string>C328FD23127CD9BC000618B2</string>
 											<string>C328FD24127CD9BC000618B2</string>
 											<string>C328FD25127CD9BC000618B2</string>
-											<string>C328FD32127CDABE000618B2</string>
-											<string>C328FD45127CE8F3000618B2</string>
+											<string>C386CA0A127DB9840000BCA2</string>
+											<string>C386CA0C127DB9840000BCA2</string>
+											<string>C386CA11127DB9EF0000BCA2</string>
+											<string>C386CA2D127DBE0B0000BCA2</string>
+											<string>C386CA97127DD8B50000BCA2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -362,12 +362,12 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1032, 492}}</string>
+								<string>{{0, 0}, {1032, 471}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>492pt</string>
+							<string>471pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
@@ -439,7 +439,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1032, 125}}</string>
+										<string>{{10, 27}, {1032, 130}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -512,8 +512,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -669,6 +667,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>C386CA1B127DBA280000BCA2</string>
+		<string>C386CA1C127DBA280000BCA2</string>
 		<string>/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

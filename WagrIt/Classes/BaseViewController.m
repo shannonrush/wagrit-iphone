@@ -54,6 +54,14 @@
 	[alert show];
 }
 
+
+-(void) errorAlert:(NSArray *)errors {
+	NSString *alertErrors = [errors componentsJoinedByString:@"\n"];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Unable To Save" message:alertErrors delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	[alert show];
+	[alert release];
+}
+
 -(void)collectWagrs {
 	[self asynchRequest:@"wagers/get_wagers.json" withMethod:@"GET" withContentType:@"application/x-www-form-urlencoded" withData:nil];	
 }
