@@ -22,10 +22,20 @@
 	[super viewDidLoad];
 	self.title = @"Wagrs";
 	[self collectWagrs];
+	self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]
+											 initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh
+											 target:self
+											 action:@selector(refreshWagrs)];	
 	wagrs = [[NSArray alloc] init];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+
+-(void)refreshWagrs {
+	[wagrs release];
+	[self collectWagrs];
+}
+
 
 
 /*

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -279,7 +279,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -301,8 +301,6 @@
 							<string>MainColumn</string>
 							<real>226</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>0 104 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -313,14 +311,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>C3C31C00126C71B9003846A0</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WagrDetailViewController.m</string>
+								<string>WagrListViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C3C31C01126C71B9003846A0</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WagrDetailViewController.m</string>
+										<string>WagrListViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C386CB23127E18EC0000BCA2</string>
+										<string>C386CB97127EF0810000BCA2</string>
 										<key>history</key>
 										<array>
 											<string>C312C5BF1270B46800839A4B</string>
@@ -343,16 +339,16 @@
 											<string>C312CF43127C8ACC00839A4B</string>
 											<string>C312CF44127C8ACC00839A4B</string>
 											<string>C328FCD9127CC84B000618B2</string>
-											<string>C328FCEE127CCD75000618B2</string>
-											<string>C328FCEF127CCD75000618B2</string>
-											<string>C328FD10127CD860000618B2</string>
 											<string>C328FD24127CD9BC000618B2</string>
 											<string>C328FD25127CD9BC000618B2</string>
-											<string>C386CA0A127DB9840000BCA2</string>
-											<string>C386CA11127DB9EF0000BCA2</string>
-											<string>C386CA2D127DBE0B0000BCA2</string>
-											<string>C386CAA8127DE65A0000BCA2</string>
-											<string>C386CB14127E17CC0000BCA2</string>
+											<string>C386CB37127EECBB0000BCA2</string>
+											<string>C386CB75127EEEDF0000BCA2</string>
+											<string>C386CB8E127EF0560000BCA2</string>
+											<string>C386CB8F127EF0560000BCA2</string>
+											<string>C386CB90127EF0560000BCA2</string>
+											<string>C386CB91127EF0560000BCA2</string>
+											<string>C386CB92127EF0560000BCA2</string>
+											<string>C386CB93127EF0560000BCA2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -367,8 +363,6 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {1032, 471}}</string>
-								<key>RubberWindowFrame</key>
-								<string>0 104 1280 674 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -446,8 +440,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1032, 130}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 104 1280 674 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -520,6 +512,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -531,6 +525,8 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1280, 121}}</string>
+						<key>RubberWindowFrame</key>
+						<string>0 104 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -605,7 +601,11 @@
 							</array>
 							<key>Frame</key>
 							<string>{{625, 0}, {655, 265}}</string>
+							<key>RubberWindowFrame</key>
+							<string>0 104 1280 674 0 0 1280 778 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>0 104 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -669,6 +669,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>C386CB95127EF0560000BCA2</string>
 		<string>C386CA1B127DBA280000BCA2</string>
 		<string>C386CA1C127DBA280000BCA2</string>
 		<string>/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt.xcodeproj</string>
