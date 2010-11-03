@@ -13,6 +13,7 @@
 @implementation WagrListViewController
 
 @synthesize tableView;
+@synthesize refreshActivity;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -21,6 +22,7 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.title = @"Wagrs";
+	refreshActivity.hidden = YES;
 	[self collectWagrs];
 	self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]
 											 initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh
@@ -36,11 +38,10 @@
 }
 
 -(void)refreshWagrs {
+	refreshActivity.hidden = NO;
 	[wagrs release];
 	[self collectWagrs];
 }
-
-
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -162,8 +163,6 @@
 
 -(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
 	WagrDetailViewController *wagrDetail = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:nil];
-	// ...
-	// Pass the selected object to the new view controller.
 	[self.navigationController pushViewController:wagrDetail animated:YES];
 }
 
@@ -190,7 +189,10 @@
 
 - (void) handleAsynchResponse:(NSDictionary *)data {
 	wagrs = [[NSArray alloc] initWithArray:[data objectForKey:@"wagers"]];
+	tableView.hidden = YES;
 	[tableView reloadData];
+	refreshActivity.hidden = YES;
+	tableView.hidden = NO;
 }		
 
 

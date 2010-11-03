@@ -15,10 +15,11 @@
 	NSDictionary *selectedWagr;
 	NSArray *wagrs;
 	UITableView *tableView;
+	UIActivityIndicatorView *refreshActivity;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
-
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *refreshActivity;
 -(void)refreshWagrs;
 
 @end

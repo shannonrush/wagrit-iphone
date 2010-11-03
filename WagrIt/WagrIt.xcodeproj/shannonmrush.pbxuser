@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* WagrItAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {971, 416}}";
-			sepNavSelRange = "{216, 0}";
-			sepNavVisRange = "{0, 623}";
+			sepNavIntBoundsRect = "{{0, 0}, {971, 439}}";
+			sepNavSelRange = "{223, 0}";
+			sepNavVisRange = "{0, 666}";
 		};
 	};
 	1D3623250D0F684500981E51 /* WagrItAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {999, 1469}}";
-			sepNavSelRange = "{659, 0}";
-			sepNavVisRange = "{82, 914}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 3276}}";
+			sepNavSelRange = "{3404, 0}";
+			sepNavVisRange = "{2926, 900}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* WagrIt */ = {
@@ -496,6 +496,45 @@
 			C386CDE01280F3F40000BCA2 /* PBXTextBookmark */ = C386CDE01280F3F40000BCA2 /* PBXTextBookmark */;
 			C386CDE51280F4CC0000BCA2 /* PBXTextBookmark */ = C386CDE51280F4CC0000BCA2 /* PBXTextBookmark */;
 			C386CDE61280F4E40000BCA2 /* PBXTextBookmark */ = C386CDE61280F4E40000BCA2 /* PBXTextBookmark */;
+			C386CDE71281AE8F0000BCA2 /* PBXTextBookmark */ = C386CDE71281AE8F0000BCA2 /* PBXTextBookmark */;
+			C386CDE91281AE930000BCA2 /* PBXTextBookmark */ = C386CDE91281AE930000BCA2 /* PBXTextBookmark */;
+			C386CDEA1281AF0C0000BCA2 /* PBXTextBookmark */ = C386CDEA1281AF0C0000BCA2 /* PBXTextBookmark */;
+			C386CDEB1281AF0C0000BCA2 /* PBXTextBookmark */ = C386CDEB1281AF0C0000BCA2 /* PBXTextBookmark */;
+			C386CDEC1281AF0C0000BCA2 /* PBXTextBookmark */ = C386CDEC1281AF0C0000BCA2 /* PBXTextBookmark */;
+			C386CDED1281AF0C0000BCA2 /* PBXTextBookmark */ = C386CDED1281AF0C0000BCA2 /* PBXTextBookmark */;
+			C386CDEE1281AF800000BCA2 /* PBXTextBookmark */ = C386CDEE1281AF800000BCA2 /* PBXTextBookmark */;
+			C386CDEF1281AF800000BCA2 /* PBXTextBookmark */ = C386CDEF1281AF800000BCA2 /* PBXTextBookmark */;
+			C386CDF01281AF800000BCA2 /* PBXTextBookmark */ = C386CDF01281AF800000BCA2 /* PBXTextBookmark */;
+			C386CDF31281AFF20000BCA2 /* PBXTextBookmark */ = C386CDF31281AFF20000BCA2 /* PBXTextBookmark */;
+			C386CDF41281AFF20000BCA2 /* PBXTextBookmark */ = C386CDF41281AFF20000BCA2 /* PBXTextBookmark */;
+			C386CDF51281AFF20000BCA2 /* PBXTextBookmark */ = C386CDF51281AFF20000BCA2 /* PBXTextBookmark */;
+			C386CE021281B2260000BCA2 /* PBXTextBookmark */ = C386CE021281B2260000BCA2 /* PBXTextBookmark */;
+			C386CE031281B2260000BCA2 /* PBXTextBookmark */ = C386CE031281B2260000BCA2 /* PBXTextBookmark */;
+			C386CE041281B2260000BCA2 /* PBXTextBookmark */ = C386CE041281B2260000BCA2 /* PBXTextBookmark */;
+			C386CE071281B22D0000BCA2 /* PBXTextBookmark */ = C386CE071281B22D0000BCA2 /* PBXTextBookmark */;
+			C386CE0C1281DC2D0000BCA2 /* PBXTextBookmark */ = C386CE0C1281DC2D0000BCA2 /* PBXTextBookmark */;
+			C386CE0D1281DF2F0000BCA2 /* PBXTextBookmark */ = C386CE0D1281DF2F0000BCA2 /* PBXTextBookmark */;
+			C386CE0E1281DF2F0000BCA2 /* PBXTextBookmark */ = C386CE0E1281DF2F0000BCA2 /* PBXTextBookmark */;
+			C386CE0F1281DF2F0000BCA2 /* PBXTextBookmark */ = C386CE0F1281DF2F0000BCA2 /* PBXTextBookmark */;
+			C386CE101281DF2F0000BCA2 /* PBXTextBookmark */ = C386CE101281DF2F0000BCA2 /* PBXTextBookmark */;
+			C386CE111281DF2F0000BCA2 /* PBXTextBookmark */ = C386CE111281DF2F0000BCA2 /* PBXTextBookmark */;
+			C386CE121281DF2F0000BCA2 /* PBXTextBookmark */ = C386CE121281DF2F0000BCA2 /* PBXTextBookmark */;
+			C386CE1D1281E01C0000BCA2 /* PBXTextBookmark */ = C386CE1D1281E01C0000BCA2 /* PBXTextBookmark */;
+			C386CE1E1281E01C0000BCA2 /* PBXTextBookmark */ = C386CE1E1281E01C0000BCA2 /* PBXTextBookmark */;
+			C386CE1F1281E01C0000BCA2 /* PBXTextBookmark */ = C386CE1F1281E01C0000BCA2 /* PBXTextBookmark */;
+			C386CE201281E01C0000BCA2 /* XCBuildMessageTextBookmark */ = C386CE201281E01C0000BCA2 /* XCBuildMessageTextBookmark */;
+			C386CE211281E01C0000BCA2 /* PBXTextBookmark */ = C386CE211281E01C0000BCA2 /* PBXTextBookmark */;
+			C386CE221281E0480000BCA2 /* PBXTextBookmark */ = C386CE221281E0480000BCA2 /* PBXTextBookmark */;
+			C386CE231281E0480000BCA2 /* PBXTextBookmark */ = C386CE231281E0480000BCA2 /* PBXTextBookmark */;
+			C386CE241281E0480000BCA2 /* PBXTextBookmark */ = C386CE241281E0480000BCA2 /* PBXTextBookmark */;
+			C386CE261281E0800000BCA2 /* PBXTextBookmark */ = C386CE261281E0800000BCA2 /* PBXTextBookmark */;
+			C386CE271281E0800000BCA2 /* PBXTextBookmark */ = C386CE271281E0800000BCA2 /* PBXTextBookmark */;
+			C386CE281281E0800000BCA2 /* PBXTextBookmark */ = C386CE281281E0800000BCA2 /* PBXTextBookmark */;
+			C386CE311281E6300000BCA2 /* PBXTextBookmark */ = C386CE311281E6300000BCA2 /* PBXTextBookmark */;
+			C386CE321281E6300000BCA2 /* PBXTextBookmark */ = C386CE321281E6300000BCA2 /* PBXTextBookmark */;
+			C386CE331281E6300000BCA2 /* PBXTextBookmark */ = C386CE331281E6300000BCA2 /* PBXTextBookmark */;
+			C386CE341281E6300000BCA2 /* PBXTextBookmark */ = C386CE341281E6300000BCA2 /* PBXTextBookmark */;
+			C386CE3D1281E6DD0000BCA2 /* PBXTextBookmark */ = C386CE3D1281E6DD0000BCA2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = C3C31C0C126C71B9003846A0 /* Source Control */;
 		userBuildSettings = {
@@ -511,15 +550,15 @@
 	C312C49D126FBE1600839A4B /* WagrListViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {971, 416}}";
-			sepNavSelRange = "{441, 0}";
-			sepNavVisRange = "{0, 462}";
+			sepNavSelRange = "{557, 0}";
+			sepNavVisRange = "{0, 585}";
 		};
 	};
 	C312C49E126FBE1600839A4B /* WagrListViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1083, 2613}}";
-			sepNavSelRange = "{805, 0}";
-			sepNavVisRange = "{4850, 891}";
+			sepNavIntBoundsRect = "{{0, 0}, {1083, 2548}}";
+			sepNavSelRange = "{5837, 0}";
+			sepNavVisRange = "{5144, 705}";
 		};
 	};
 	C312C5B91270B45F00839A4B /* WagrDetailViewController.h */ = {
@@ -637,7 +676,7 @@
 		fRef = C312C49D126FBE1600839A4B /* WagrListViewController.h */;
 		name = "WagrListViewController.h: 21";
 		rLen = 0;
-		rLoc = 455;
+		rLoc = 578;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 0;
@@ -667,7 +706,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 88";
 		rLen = 0;
-		rLoc = 2635;
+		rLoc = 2723;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 1549;
@@ -687,7 +726,7 @@
 		fRef = 1D3623240D0F684500981E51 /* WagrItAppDelegate.h */;
 		name = "WagrItAppDelegate.h: 26";
 		rLen = 0;
-		rLoc = 607;
+		rLoc = 627;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 0;
@@ -697,7 +736,7 @@
 		fRef = 1D3623250D0F684500981E51 /* WagrItAppDelegate.m */;
 		name = "WagrItAppDelegate.m: 33";
 		rLen = 0;
-		rLoc = 659;
+		rLoc = 3406;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 2276;
@@ -707,7 +746,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 27";
 		rLen = 0;
-		rLoc = 368;
+		rLoc = 420;
 		rType = 0;
 		vrLen = 1300;
 		vrLoc = 214;
@@ -916,7 +955,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 27";
 		rLen = 0;
-		rLoc = 368;
+		rLoc = 420;
 		rType = 0;
 		vrLen = 1270;
 		vrLoc = 244;
@@ -1864,7 +1903,7 @@
 		fRef = C312C49D126FBE1600839A4B /* WagrListViewController.h */;
 		name = "WagrListViewController.h: 21";
 		rLen = 0;
-		rLoc = 455;
+		rLoc = 578;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 0;
@@ -1874,7 +1913,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 63";
 		rLen = 0;
-		rLoc = 1732;
+		rLoc = 1820;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 928;
@@ -1884,7 +1923,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 64";
 		rLen = 0;
-		rLoc = 1732;
+		rLoc = 1820;
 		rType = 0;
 		vrLen = 736;
 		vrLoc = 928;
@@ -1894,7 +1933,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 64";
 		rLen = 0;
-		rLoc = 1732;
+		rLoc = 1820;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 925;
@@ -1914,7 +1953,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 62";
 		rLen = 0;
-		rLoc = 1732;
+		rLoc = 1820;
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 1191;
@@ -1924,7 +1963,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 28";
 		rLen = 0;
-		rLoc = 611;
+		rLoc = 671;
 		rType = 0;
 		vrLen = 831;
 		vrLoc = 263;
@@ -1935,7 +1974,7 @@
 		fRef = C312C49D126FBE1600839A4B /* WagrListViewController.h */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 21;
+		rLoc = 22;
 		rType = 1;
 	};
 	C386CB60127EED830000BCA2 /* PBXTextBookmark */ = {
@@ -1943,7 +1982,7 @@
 		fRef = C312C49D126FBE1600839A4B /* WagrListViewController.h */;
 		name = "WagrListViewController.h: 22";
 		rLen = 0;
-		rLoc = 455;
+		rLoc = 578;
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 0;
@@ -1953,7 +1992,7 @@
 		fRef = C312C49D126FBE1600839A4B /* WagrListViewController.h */;
 		name = "WagrListViewController.h: 20";
 		rLen = 0;
-		rLoc = 455;
+		rLoc = 578;
 		rType = 0;
 		vrLen = 440;
 		vrLoc = 0;
@@ -1963,7 +2002,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 28";
 		rLen = 0;
-		rLoc = 611;
+		rLoc = 671;
 		rType = 0;
 		vrLen = 831;
 		vrLoc = 263;
@@ -1973,7 +2012,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 28";
 		rLen = 0;
-		rLoc = 624;
+		rLoc = 684;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 263;
@@ -1983,7 +2022,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 27";
 		rLen = 0;
-		rLoc = 581;
+		rLoc = 641;
 		rType = 0;
 		vrLen = 796;
 		vrLoc = 263;
@@ -2003,7 +2042,7 @@
 		fRef = C312C49D126FBE1600839A4B /* WagrListViewController.h */;
 		name = "WagrListViewController.h: 22";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 564;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 0;
@@ -2013,7 +2052,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 28";
 		rLen = 0;
-		rLoc = 624;
+		rLoc = 684;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 263;
@@ -2023,7 +2062,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 25";
 		rLen = 15;
-		rLoc = 466;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 852;
 		vrLoc = 150;
@@ -2033,7 +2072,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 28";
 		rLen = 0;
-		rLoc = 623;
+		rLoc = 683;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 150;
@@ -2043,7 +2082,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 28";
 		rLen = 0;
-		rLoc = 623;
+		rLoc = 683;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 150;
@@ -2053,7 +2092,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 28";
 		rLen = 0;
-		rLoc = 623;
+		rLoc = 683;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 150;
@@ -2063,7 +2102,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 28";
 		rLen = 0;
-		rLoc = 623;
+		rLoc = 683;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 150;
@@ -2073,7 +2112,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 34";
 		rLen = 0;
-		rLoc = 1044;
+		rLoc = 1134;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 582;
@@ -2083,7 +2122,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 34";
 		rLen = 0;
-		rLoc = 1044;
+		rLoc = 1134;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 582;
@@ -2113,7 +2152,7 @@
 		fRef = C312C49D126FBE1600839A4B /* WagrListViewController.h */;
 		name = "WagrListViewController.h: 22";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 564;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 0;
@@ -2123,7 +2162,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 24";
 		rLen = 0;
-		rLoc = 368;
+		rLoc = 420;
 		rType = 0;
 		vrLen = 1270;
 		vrLoc = 244;
@@ -2143,7 +2182,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 43";
 		rLen = 0;
-		rLoc = 1088;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 332;
@@ -2153,7 +2192,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 39";
 		rLen = 0;
-		rLoc = 1088;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 4433;
@@ -2163,7 +2202,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 39";
 		rLen = 0;
-		rLoc = 1088;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 4939;
@@ -2173,7 +2212,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 39";
 		rLen = 0;
-		rLoc = 1088;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 4939;
@@ -2183,7 +2222,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 39";
 		rLen = 0;
-		rLoc = 1088;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 249;
 		vrLoc = 5318;
@@ -2220,7 +2259,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 39";
 		rLen = 0;
-		rLoc = 1088;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 757;
 		vrLoc = 4809;
@@ -2230,23 +2269,23 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 32";
 		rLen = 0;
-		rLoc = 805;
+		rLoc = 865;
 		rType = 0;
 		vrLen = 958;
 		vrLoc = 87;
 	};
 	C386CBA3127F98550000BCA2 /* SignupViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {971, 481}}";
-			sepNavSelRange = "{1138, 0}";
-			sepNavVisRange = "{41, 1103}";
+			sepNavIntBoundsRect = "{{0, 0}, {971, 442}}";
+			sepNavSelRange = "{981, 0}";
+			sepNavVisRange = "{0, 1052}";
 		};
 	};
 	C386CBA4127F98550000BCA2 /* SignupViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1244, 1794}}";
-			sepNavSelRange = "{4070, 0}";
-			sepNavVisRange = "{2120, 1229}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1651}}";
+			sepNavSelRange = "{982, 0}";
+			sepNavVisRange = "{811, 921}";
 		};
 	};
 	C386CBA9127F98820000BCA2 /* PBXTextBookmark */ = {
@@ -2254,7 +2293,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 32";
 		rLen = 0;
-		rLoc = 805;
+		rLoc = 865;
 		rType = 0;
 		vrLen = 958;
 		vrLoc = 87;
@@ -2264,7 +2303,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 57";
 		rLen = 0;
-		rLoc = 1798;
+		rLoc = 1934;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 772;
@@ -2274,7 +2313,7 @@
 		fRef = 1D3623240D0F684500981E51 /* WagrItAppDelegate.h */;
 		name = "WagrItAppDelegate.h: 26";
 		rLen = 0;
-		rLoc = 607;
+		rLoc = 627;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 0;
@@ -2314,7 +2353,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 57";
 		rLen = 0;
-		rLoc = 1798;
+		rLoc = 1934;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 797;
@@ -2334,7 +2373,7 @@
 		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
 		name = "LoginViewController.h: 22";
 		rLen = 0;
-		rLoc = 532;
+		rLoc = 738;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 0;
@@ -2344,7 +2383,7 @@
 		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
 		name = "LoginViewController.h: 22";
 		rLen = 0;
-		rLoc = 532;
+		rLoc = 738;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 0;
@@ -2355,7 +2394,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 60;
+		rLoc = 65;
 		rType = 1;
 	};
 	C386CBBC127F994A0000BCA2 /* PBXTextBookmark */ = {
@@ -2363,7 +2402,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 59";
 		rLen = 0;
-		rLoc = 1798;
+		rLoc = 1934;
 		rType = 0;
 		vrLen = 1087;
 		vrLoc = 1323;
@@ -2373,7 +2412,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 18";
 		rLen = 0;
-		rLoc = 366;
+		rLoc = 419;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 0;
@@ -2383,7 +2422,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 57";
 		rLen = 0;
-		rLoc = 1794;
+		rLoc = 1930;
 		rType = 0;
 		vrLen = 1532;
 		vrLoc = 834;
@@ -2393,7 +2432,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 57";
 		rLen = 0;
-		rLoc = 1794;
+		rLoc = 1930;
 		rType = 0;
 		vrLen = 1463;
 		vrLoc = 834;
@@ -2403,7 +2442,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 57";
 		rLen = 0;
-		rLoc = 1794;
+		rLoc = 1930;
 		rType = 0;
 		vrLen = 1434;
 		vrLoc = 833;
@@ -2413,7 +2452,7 @@
 		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
 		name = "LoginViewController.h: 22";
 		rLen = 0;
-		rLoc = 532;
+		rLoc = 738;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 0;
@@ -2423,7 +2462,7 @@
 		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
 		name = "LoginViewController.h: 22";
 		rLen = 0;
-		rLoc = 532;
+		rLoc = 738;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 0;
@@ -2433,7 +2472,7 @@
 		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
 		name = "LoginViewController.h: 22";
 		rLen = 0;
-		rLoc = 532;
+		rLoc = 738;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 0;
@@ -2442,7 +2481,7 @@
 		isa = PBXTextBookmark;
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		rLen = 0;
-		rLoc = 57;
+		rLoc = 62;
 		rType = 1;
 	};
 	C386CBD0127F9A220000BCA2 /* PBXTextBookmark */ = {
@@ -2450,7 +2489,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 58";
 		rLen = 0;
-		rLoc = 1797;
+		rLoc = 1933;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 834;
@@ -2460,7 +2499,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 58";
 		rLen = 0;
-		rLoc = 1797;
+		rLoc = 1933;
 		rType = 0;
 		vrLen = 1050;
 		vrLoc = 834;
@@ -2470,7 +2509,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 58";
 		rLen = 0;
-		rLoc = 1797;
+		rLoc = 1933;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 834;
@@ -2490,7 +2529,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 61";
 		rLen = 0;
-		rLoc = 1957;
+		rLoc = 2093;
 		rType = 0;
 		vrLen = 553;
 		vrLoc = 1701;
@@ -2500,7 +2539,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 70";
 		rLen = 104;
-		rLoc = 2255;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1090;
 		vrLoc = 1362;
@@ -2520,7 +2559,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 34";
 		rLen = 0;
-		rLoc = 3381;
+		rLoc = 2895;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 760;
@@ -2530,7 +2569,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 70";
 		rLen = 104;
-		rLoc = 2255;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 1438;
@@ -2540,7 +2579,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 34";
 		rLen = 0;
-		rLoc = 3381;
+		rLoc = 2895;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 180;
@@ -2570,7 +2609,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 17";
 		rLen = 0;
-		rLoc = 1138;
+		rLoc = 1046;
 		rType = 0;
 		vrLen = 323;
 		vrLoc = 0;
@@ -2580,7 +2619,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 17";
 		rLen = 0;
-		rLoc = 1138;
+		rLoc = 1046;
 		rType = 0;
 		vrLen = 323;
 		vrLoc = 0;
@@ -2590,7 +2629,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 70";
 		rLen = 104;
-		rLoc = 2255;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 0;
@@ -2600,7 +2639,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 32";
 		rLen = 0;
-		rLoc = 805;
+		rLoc = 865;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 87;
@@ -2610,7 +2649,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 14";
 		rLen = 0;
-		rLoc = 472;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2620,7 +2659,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 14";
 		rLen = 0;
-		rLoc = 472;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2630,7 +2669,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 70";
 		rLen = 104;
-		rLoc = 2255;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 0;
@@ -2650,7 +2689,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 17";
 		rLen = 0;
-		rLoc = 1138;
+		rLoc = 1046;
 		rType = 0;
 		vrLen = 323;
 		vrLoc = 0;
@@ -2660,7 +2699,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 14";
 		rLen = 0;
-		rLoc = 472;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2670,7 +2709,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 35";
 		rLen = 0;
-		rLoc = 1897;
+		rLoc = 1833;
 		rType = 0;
 		vrLen = 894;
 		vrLoc = 630;
@@ -2680,7 +2719,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 35";
 		rLen = 0;
-		rLoc = 1897;
+		rLoc = 1833;
 		rType = 0;
 		vrLen = 895;
 		vrLoc = 630;
@@ -2730,7 +2769,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 70";
 		rLen = 104;
-		rLoc = 2255;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 0;
@@ -2740,7 +2779,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 17";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 565;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -2780,7 +2819,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 15";
 		rLen = 0;
-		rLoc = 472;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 789;
 		vrLoc = 0;
@@ -2800,7 +2839,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 20";
 		rLen = 0;
-		rLoc = 473;
+		rLoc = 450;
 		rType = 0;
 		vrLen = 901;
 		vrLoc = 0;
@@ -2810,7 +2849,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 29";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 981;
 		rType = 0;
 		vrLen = 986;
 		vrLoc = 0;
@@ -2820,7 +2859,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 20";
 		rLen = 0;
-		rLoc = 473;
+		rLoc = 450;
 		rType = 0;
 		vrLen = 901;
 		vrLoc = 0;
@@ -2830,7 +2869,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 19";
 		rLen = 0;
-		rLoc = 471;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 907;
 		vrLoc = 0;
@@ -2840,7 +2879,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 19";
 		rLen = 0;
-		rLoc = 471;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 907;
 		vrLoc = 0;
@@ -2850,7 +2889,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 38";
 		rLen = 0;
-		rLoc = 1146;
+		rLoc = 1101;
 		rType = 0;
 		vrLen = 1007;
 		vrLoc = 391;
@@ -2860,7 +2899,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 29";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 981;
 		rType = 0;
 		vrLen = 986;
 		vrLoc = 0;
@@ -2870,7 +2909,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 31";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 981;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 0;
@@ -2880,7 +2919,7 @@
 		fRef = 1D3623240D0F684500981E51 /* WagrItAppDelegate.h */;
 		name = "WagrItAppDelegate.h: 14";
 		rLen = 0;
-		rLoc = 216;
+		rLoc = 236;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 0;
@@ -2890,7 +2929,7 @@
 		fRef = 1D3623250D0F684500981E51 /* WagrItAppDelegate.m */;
 		name = "WagrItAppDelegate.m: 27";
 		rLen = 0;
-		rLoc = 462;
+		rLoc = 509;
 		rType = 0;
 		vrLen = 831;
 		vrLoc = 141;
@@ -2900,7 +2939,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 31";
 		rLen = 0;
-		rLoc = 1050;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1052;
 		vrLoc = 0;
@@ -2910,7 +2949,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 60";
 		rLen = 0;
-		rLoc = 1719;
+		rLoc = 1657;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 1052;
@@ -2920,7 +2959,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 36";
 		rLen = 0;
-		rLoc = 1027;
+		rLoc = 982;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 219;
@@ -2930,7 +2969,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 72";
 		rLen = 0;
-		rLoc = 2246;
+		rLoc = 2033;
 		rType = 0;
 		vrLen = 1214;
 		vrLoc = 1790;
@@ -2950,7 +2989,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 40";
 		rLen = 645;
-		rLoc = 1119;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 782;
@@ -2970,7 +3009,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 36";
 		rLen = 0;
-		rLoc = 1026;
+		rLoc = 982;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 274;
@@ -2980,7 +3019,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 31";
 		rLen = 0;
-		rLoc = 1050;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1052;
 		vrLoc = 0;
@@ -2990,7 +3029,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 33";
 		rLen = 0;
-		rLoc = 1072;
+		rLoc = 981;
 		rType = 0;
 		vrLen = 1074;
 		vrLoc = 41;
@@ -3000,7 +3039,7 @@
 		fRef = 1D3623250D0F684500981E51 /* WagrItAppDelegate.m */;
 		name = "WagrItAppDelegate.m: 34";
 		rLen = 0;
-		rLoc = 659;
+		rLoc = 3406;
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 82;
@@ -3010,7 +3049,7 @@
 		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
 		name = "LoginViewController.h: 22";
 		rLen = 30;
-		rLoc = 503;
+		rLoc = 709;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 0;
@@ -3020,7 +3059,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 34";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 981;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 30;
@@ -3031,7 +3070,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 40;
+		rLoc = 38;
 		rType = 1;
 	};
 	C386CC37127FA87F0000BCA2 /* PBXTextBookmark */ = {
@@ -3039,7 +3078,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 41";
 		rLen = 0;
-		rLoc = 1064;
+		rLoc = 1019;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 975;
@@ -3049,7 +3088,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1481;
+		rLoc = 1456;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 975;
@@ -3059,7 +3098,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1481;
+		rLoc = 1456;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 975;
@@ -3069,7 +3108,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1481;
+		rLoc = 1456;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 975;
@@ -3079,7 +3118,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 61";
 		rLen = 0;
-		rLoc = 1957;
+		rLoc = 2093;
 		rType = 0;
 		vrLen = 553;
 		vrLoc = 1701;
@@ -3089,7 +3128,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1481;
+		rLoc = 1456;
 		rType = 0;
 		vrLen = 920;
 		vrLoc = 1210;
@@ -3099,7 +3138,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1481;
+		rLoc = 1456;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 1502;
@@ -3109,7 +3148,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1481;
+		rLoc = 1456;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 1502;
@@ -3119,7 +3158,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1481;
+		rLoc = 1456;
 		rType = 0;
 		vrLen = 1239;
 		vrLoc = 832;
@@ -3129,7 +3168,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1481;
+		rLoc = 1456;
 		rType = 0;
 		vrLen = 1239;
 		vrLoc = 832;
@@ -3139,7 +3178,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1481;
+		rLoc = 1456;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 1196;
@@ -3149,7 +3188,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 42";
 		rLen = 0;
-		rLoc = 1067;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 950;
@@ -3159,7 +3198,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 42";
 		rLen = 0;
-		rLoc = 1067;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 950;
@@ -3169,7 +3208,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 42";
 		rLen = 0;
-		rLoc = 1067;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 950;
@@ -3179,7 +3218,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 42";
 		rLen = 0;
-		rLoc = 1067;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 2110;
@@ -3189,7 +3228,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 42";
 		rLen = 0;
-		rLoc = 1067;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 2110;
@@ -3199,7 +3238,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 42";
 		rLen = 0;
-		rLoc = 1067;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 2110;
@@ -3209,7 +3248,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 42";
 		rLen = 0;
-		rLoc = 1067;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 2110;
@@ -3219,7 +3258,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 42";
 		rLen = 0;
-		rLoc = 1067;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 2113;
@@ -3229,7 +3268,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 42";
 		rLen = 0;
-		rLoc = 1067;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 528;
 		vrLoc = 2218;
@@ -3239,7 +3278,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 83";
 		rLen = 0;
-		rLoc = 3268;
+		rLoc = 2792;
 		rType = 0;
 		vrLen = 431;
 		vrLoc = 2437;
@@ -3249,7 +3288,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 83";
 		rLen = 0;
-		rLoc = 3268;
+		rLoc = 2792;
 		rType = 0;
 		vrLen = 1097;
 		vrLoc = 2113;
@@ -3259,7 +3298,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 75";
 		rLen = 0;
-		rLoc = 2030;
+		rLoc = 1966;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 1539;
@@ -3269,7 +3308,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 76";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2005;
 		rType = 0;
 		vrLen = 1224;
 		vrLoc = 1539;
@@ -3279,7 +3318,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 34";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 981;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 30;
@@ -3289,7 +3328,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 76";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2005;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 3;
@@ -3299,7 +3338,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 71";
 		rLen = 0;
-		rLoc = 2053;
+		rLoc = 1989;
 		rType = 0;
 		vrLen = 1207;
 		vrLoc = 1339;
@@ -3309,7 +3348,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 52";
 		rLen = 0;
-		rLoc = 1406;
+		rLoc = 1381;
 		rType = 0;
 		vrLen = 1236;
 		vrLoc = 827;
@@ -3319,7 +3358,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 52";
 		rLen = 0;
-		rLoc = 1406;
+		rLoc = 1381;
 		rType = 0;
 		vrLen = 1233;
 		vrLoc = 827;
@@ -3329,7 +3368,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 52";
 		rLen = 0;
-		rLoc = 1406;
+		rLoc = 1381;
 		rType = 0;
 		vrLen = 1233;
 		vrLoc = 827;
@@ -3339,7 +3378,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 52";
 		rLen = 0;
-		rLoc = 1406;
+		rLoc = 1381;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 827;
@@ -3349,7 +3388,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 52";
 		rLen = 0;
-		rLoc = 1406;
+		rLoc = 1381;
 		rType = 0;
 		vrLen = 1233;
 		vrLoc = 827;
@@ -3359,7 +3398,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 3266;
+		rLoc = 2792;
 		rType = 0;
 		vrLen = 241;
 		vrLoc = 2647;
@@ -3369,7 +3408,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 1086;
@@ -3379,7 +3418,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 997;
@@ -3389,7 +3428,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 997;
@@ -3399,7 +3438,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 54";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1356;
 		vrLoc = 997;
@@ -3409,7 +3448,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 54";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1348;
 		vrLoc = 997;
@@ -3419,7 +3458,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 54";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1310;
 		vrLoc = 997;
@@ -3429,7 +3468,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1576;
+		rLoc = 1514;
 		rType = 0;
 		vrLen = 588;
 		vrLoc = 1205;
@@ -3439,7 +3478,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1576;
+		rLoc = 1514;
 		rType = 0;
 		vrLen = 615;
 		vrLoc = 1331;
@@ -3449,7 +3488,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 54";
 		rLen = 0;
-		rLoc = 1762;
+		rLoc = 1898;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 782;
@@ -3459,7 +3498,7 @@
 		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
 		name = "WagrListViewController.m: 32";
 		rLen = 0;
-		rLoc = 805;
+		rLoc = 865;
 		rType = 0;
 		vrLen = 891;
 		vrLoc = 4850;
@@ -3469,7 +3508,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 34";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 981;
 		rType = 0;
 		vrLen = 1071;
 		vrLoc = 44;
@@ -3479,7 +3518,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 90";
 		rLen = 0;
-		rLoc = 3226;
+		rLoc = 2792;
 		rType = 0;
 		vrLen = 1096;
 		vrLoc = 2455;
@@ -3489,7 +3528,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 55";
 		rLen = 0;
-		rLoc = 1576;
+		rLoc = 1514;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 1191;
@@ -3499,7 +3538,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 54";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1269;
 		vrLoc = 1191;
@@ -3509,7 +3548,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1330;
 		vrLoc = 1204;
@@ -3519,7 +3558,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1388;
 		vrLoc = 1204;
@@ -3529,7 +3568,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1269;
 		vrLoc = 1204;
@@ -3539,7 +3578,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1269;
 		vrLoc = 1204;
@@ -3549,7 +3588,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1329;
 		vrLoc = 1204;
@@ -3559,7 +3598,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1331;
 		vrLoc = 1204;
@@ -3569,7 +3608,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 54";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1315;
 		vrLoc = 1204;
@@ -3579,7 +3618,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 54";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1512;
 		rType = 0;
 		vrLen = 1353;
 		vrLoc = 1204;
@@ -3589,7 +3628,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1480;
+		rLoc = 1455;
 		rType = 0;
 		vrLen = 792;
 		vrLoc = 1331;
@@ -3600,7 +3639,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 53;
+		rLoc = 51;
 		rType = 1;
 	};
 	C386CCD71280433D0000BCA2 /* PBXTextBookmark */ = {
@@ -3608,7 +3647,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 53";
 		rLen = 0;
-		rLoc = 1519;
+		rLoc = 1463;
 		rType = 0;
 		vrLen = 1270;
 		vrLoc = 1204;
@@ -3618,7 +3657,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 77";
 		rLen = 0;
-		rLoc = 2098;
+		rLoc = 2033;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 2120;
@@ -3628,7 +3667,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 77";
 		rLen = 0;
-		rLoc = 2098;
+		rLoc = 2033;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 2120;
@@ -3638,7 +3677,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 77";
 		rLen = 0;
-		rLoc = 2098;
+		rLoc = 2033;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 997;
@@ -3648,7 +3687,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 77";
 		rLen = 0;
-		rLoc = 2098;
+		rLoc = 2033;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 997;
@@ -3658,7 +3697,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 77";
 		rLen = 0;
-		rLoc = 2098;
+		rLoc = 2033;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 997;
@@ -3668,7 +3707,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 73";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2005;
 		rType = 0;
 		vrLen = 248;
 		vrLoc = 2223;
@@ -3678,7 +3717,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 57";
 		rLen = 0;
-		rLoc = 1717;
+		rLoc = 1655;
 		rType = 0;
 		vrLen = 1339;
 		vrLoc = 1333;
@@ -3688,7 +3727,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 75";
 		rLen = 0;
-		rLoc = 2091;
+		rLoc = 2027;
 		rType = 0;
 		vrLen = 1310;
 		vrLoc = 1333;
@@ -3698,7 +3737,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 58";
 		rLen = 0;
-		rLoc = 1792;
+		rLoc = 1728;
 		rType = 0;
 		vrLen = 1039;
 		vrLoc = 1333;
@@ -3708,7 +3747,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 58";
 		rLen = 0;
-		rLoc = 1792;
+		rLoc = 1728;
 		rType = 0;
 		vrLen = 1039;
 		vrLoc = 1333;
@@ -3718,7 +3757,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 35";
 		rLen = 0;
-		rLoc = 1111;
+		rLoc = 1019;
 		rType = 0;
 		vrLen = 1081;
 		vrLoc = 44;
@@ -3728,7 +3767,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 73";
 		rLen = 0;
-		rLoc = 2095;
+		rLoc = 2031;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 804;
@@ -3738,7 +3777,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 81";
 		rLen = 0;
-		rLoc = 2901;
+		rLoc = 2617;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 1763;
@@ -3748,7 +3787,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 80";
 		rLen = 28;
-		rLoc = 2319;
+		rLoc = 2035;
 		rType = 0;
 		vrLen = 904;
 		vrLoc = 1763;
@@ -3758,7 +3797,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 35";
 		rLen = 0;
-		rLoc = 1111;
+		rLoc = 1019;
 		rType = 0;
 		vrLen = 1083;
 		vrLoc = 41;
@@ -3768,7 +3807,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 35";
 		rLen = 0;
-		rLoc = 1138;
+		rLoc = 1046;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 41;
@@ -3778,7 +3817,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 35";
 		rLen = 0;
-		rLoc = 1138;
+		rLoc = 1046;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 41;
@@ -3798,7 +3837,7 @@
 		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
 		name = "LoginViewController.m: 36";
 		rLen = 244;
-		rLoc = 869;
+		rLoc = 1005;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 782;
@@ -3808,7 +3847,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 80";
 		rLen = 28;
-		rLoc = 2319;
+		rLoc = 2035;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 2037;
@@ -3818,7 +3857,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 87";
 		rLen = 0;
-		rLoc = 2757;
+		rLoc = 2473;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 2038;
@@ -3828,7 +3867,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 99";
 		rLen = 0;
-		rLoc = 3370;
+		rLoc = 2884;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 2038;
@@ -3838,7 +3877,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 99";
 		rLen = 0;
-		rLoc = 3370;
+		rLoc = 2884;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 2038;
@@ -3848,7 +3887,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 99";
 		rLen = 0;
-		rLoc = 3370;
+		rLoc = 2884;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 2038;
@@ -3858,7 +3897,7 @@
 		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
 		name = "SignupViewController.h: 35";
 		rLen = 0;
-		rLoc = 1138;
+		rLoc = 1046;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 41;
@@ -3867,7 +3906,7 @@
 		isa = PBXTextBookmark;
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		rLen = 0;
-		rLoc = 89;
+		rLoc = 83;
 		rType = 1;
 	};
 	C386CD09128049700000BCA2 /* PBXTextBookmark */ = {
@@ -3875,7 +3914,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 87";
 		rLen = 0;
-		rLoc = 2719;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 1254;
 		vrLoc = 2060;
@@ -3885,7 +3924,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 87";
 		rLen = 0;
-		rLoc = 2719;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 2060;
@@ -3895,7 +3934,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 87";
 		rLen = 0;
-		rLoc = 2719;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 484;
 		vrLoc = 2428;
@@ -3933,7 +3972,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 89;
+		rLoc = 83;
 		rType = 1;
 	};
 	C386CD19128049DF0000BCA2 /* PBXTextBookmark */ = {
@@ -3941,7 +3980,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2757;
+		rLoc = 2473;
 		rType = 0;
 		vrLen = 1311;
 		vrLoc = 2090;
@@ -3951,7 +3990,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2757;
+		rLoc = 2473;
 		rType = 0;
 		vrLen = 1450;
 		vrLoc = 2090;
@@ -3961,7 +4000,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2757;
+		rLoc = 2473;
 		rType = 0;
 		vrLen = 1311;
 		vrLoc = 2090;
@@ -3971,7 +4010,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2757;
+		rLoc = 2473;
 		rType = 0;
 		vrLen = 569;
 		vrLoc = 2320;
@@ -3991,7 +4030,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2757;
+		rLoc = 2473;
 		rType = 0;
 		vrLen = 1450;
 		vrLoc = 2090;
@@ -4001,7 +4040,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2757;
+		rLoc = 2473;
 		rType = 0;
 		vrLen = 1311;
 		vrLoc = 2090;
@@ -4011,7 +4050,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2757;
+		rLoc = 2473;
 		rType = 0;
 		vrLen = 1311;
 		vrLoc = 2090;
@@ -4021,7 +4060,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 88";
 		rLen = 0;
-		rLoc = 2757;
+		rLoc = 2473;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 2204;
@@ -4031,7 +4070,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 82";
 		rLen = 0;
-		rLoc = 2588;
+		rLoc = 2304;
 		rType = 0;
 		vrLen = 493;
 		vrLoc = 2288;
@@ -4041,7 +4080,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 82";
 		rLen = 0;
-		rLoc = 2588;
+		rLoc = 2304;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 2048;
@@ -4051,7 +4090,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 82";
 		rLen = 0;
-		rLoc = 2564;
+		rLoc = 2280;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 2048;
@@ -4061,7 +4100,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 1221;
@@ -4071,7 +4110,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 1221;
@@ -4081,7 +4120,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 1221;
@@ -4091,7 +4130,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 1221;
@@ -4101,7 +4140,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 263;
 		vrLoc = 210;
@@ -4111,7 +4150,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 0;
@@ -4121,7 +4160,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 1480;
@@ -4131,7 +4170,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 1480;
@@ -4141,7 +4180,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 1480;
@@ -4151,7 +4190,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 68";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 559;
 		vrLoc = 1234;
@@ -4161,7 +4200,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 69";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 1221;
@@ -4171,7 +4210,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 69";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 1221;
@@ -4181,7 +4220,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 69";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 1221;
@@ -4191,7 +4230,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 69";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 1221;
@@ -4201,7 +4240,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 69";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 1963;
 		rType = 0;
 		vrLen = 559;
 		vrLoc = 1234;
@@ -4211,7 +4250,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1361;
 		vrLoc = 1886;
@@ -4221,7 +4260,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1329;
 		vrLoc = 1886;
@@ -4231,7 +4270,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1545;
 		vrLoc = 2028;
@@ -4241,7 +4280,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1523;
 		vrLoc = 2028;
@@ -4251,7 +4290,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1523;
 		vrLoc = 2028;
@@ -4261,7 +4300,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1523;
 		vrLoc = 2028;
@@ -4271,7 +4310,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 735;
 		vrLoc = 2350;
@@ -4308,7 +4347,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1503;
 		vrLoc = 2028;
@@ -4318,7 +4357,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1503;
 		vrLoc = 2028;
@@ -4328,7 +4367,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 2028;
@@ -4338,7 +4377,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1474;
 		vrLoc = 2028;
@@ -4348,7 +4387,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 2478;
@@ -4385,7 +4424,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 89";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 0;
@@ -4395,7 +4434,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1343;
 		vrLoc = 1899;
@@ -4405,7 +4444,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 1899;
@@ -4415,7 +4454,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 83";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1400;
 		vrLoc = 1899;
@@ -4425,7 +4464,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1407;
 		vrLoc = 1899;
@@ -4435,7 +4474,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1407;
 		vrLoc = 1899;
@@ -4445,7 +4484,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1407;
 		vrLoc = 1899;
@@ -4455,7 +4494,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 762;
 		vrLoc = 2199;
@@ -4492,7 +4531,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1365;
 		vrLoc = 1899;
@@ -4502,7 +4541,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 1899;
@@ -4512,7 +4551,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 1899;
@@ -4522,7 +4561,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 692;
 		vrLoc = 2199;
@@ -4559,7 +4598,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1154;
 		vrLoc = 1793;
@@ -4569,7 +4608,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1113;
 		vrLoc = 1793;
@@ -4579,7 +4618,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 84";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 2199;
@@ -4616,7 +4655,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 82";
 		rLen = 0;
-		rLoc = 2416;
+		rLoc = 2132;
 		rType = 0;
 		vrLen = 1113;
 		vrLoc = 1793;
@@ -4626,7 +4665,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 88";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 1156;
 		vrLoc = 1852;
@@ -4636,7 +4675,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 83";
 		rLen = 0;
-		rLoc = 2390;
+		rLoc = 2106;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 1852;
@@ -4646,7 +4685,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 83";
 		rLen = 0;
-		rLoc = 2390;
+		rLoc = 2106;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 1852;
@@ -4656,7 +4695,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 83";
 		rLen = 0;
-		rLoc = 2390;
+		rLoc = 2106;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 1852;
@@ -4666,7 +4705,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 83";
 		rLen = 0;
-		rLoc = 2390;
+		rLoc = 2106;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 2591;
@@ -4686,7 +4725,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 136";
 		rLen = 0;
-		rLoc = 4070;
+		rLoc = 3584;
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 3382;
@@ -4696,7 +4735,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 136";
 		rLen = 0;
-		rLoc = 4070;
+		rLoc = 3584;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 2120;
@@ -4706,7 +4745,7 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 136";
 		rLen = 0;
-		rLoc = 4070;
+		rLoc = 3584;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 2120;
@@ -4716,10 +4755,399 @@
 		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
 		name = "SignupViewController.m: 136";
 		rLen = 0;
-		rLoc = 4070;
+		rLoc = 3584;
 		rType = 0;
 		vrLen = 1229;
 		vrLoc = 2120;
+	};
+	C386CDE71281AE8F0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 136";
+		rLen = 0;
+		rLoc = 3584;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 2591;
+	};
+	C386CDE91281AE930000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 136";
+		rLen = 0;
+		rLoc = 3584;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 2120;
+	};
+	C386CDEA1281AF0C0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 136";
+		rLen = 0;
+		rLoc = 3584;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 2120;
+	};
+	C386CDEB1281AF0C0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
+		name = "LoginViewController.h: 23";
+		rLen = 0;
+		rLoc = 613;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	C386CDEC1281AF0C0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 36";
+		rLen = 244;
+		rLoc = 1005;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 782;
+	};
+	C386CDED1281AF0C0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 20";
+		rLen = 0;
+		rLoc = 419;
+		rType = 0;
+		vrLen = 1377;
+		vrLoc = 340;
+	};
+	C386CDEE1281AF800000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 35";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 1388;
+		vrLoc = 340;
+	};
+	C386CDEF1281AF800000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
+		name = "LoginViewController.h: 23";
+		rLen = 0;
+		rLoc = 613;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	C386CDF01281AF800000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
+		name = "LoginViewController.h: 27";
+		rLen = 0;
+		rLoc = 675;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 0;
+	};
+	C386CDF31281AFF20000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
+		name = "LoginViewController.h: 27";
+		rLen = 0;
+		rLoc = 675;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 0;
+	};
+	C386CDF41281AFF20000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 35";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 1361;
+		vrLoc = 367;
+	};
+	C386CDF51281AFF20000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 67";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 2412;
+	};
+	C386CE021281B2260000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 67";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 1448;
+	};
+	C386CE031281B2260000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 136";
+		rLen = 0;
+		rLoc = 3584;
+		rType = 0;
+		vrLen = 1462;
+		vrLoc = 2098;
+	};
+	C386CE041281B2260000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 136";
+		rLen = 0;
+		rLoc = 3584;
+		rType = 0;
+		vrLen = 1320;
+		vrLoc = 2055;
+	};
+	C386CE071281B22D0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 136";
+		rLen = 0;
+		rLoc = 3584;
+		rType = 0;
+		vrLen = 1320;
+		vrLoc = 2055;
+	};
+	C386CE0C1281DC2D0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 136";
+		rLen = 0;
+		rLoc = 3584;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 2591;
+	};
+	C386CE0D1281DF2F0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WagrItAppDelegate.h */;
+		name = "WagrItAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 223;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 0;
+	};
+	C386CE0E1281DF2F0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WagrItAppDelegate.m */;
+		name = "WagrItAppDelegate.m: 180";
+		rLen = 0;
+		rLoc = 3401;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 2799;
+	};
+	C386CE0F1281DF2F0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 136";
+		rLen = 0;
+		rLoc = 3584;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 722;
+	};
+	C386CE101281DF2F0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C18126C737B003846A0 /* LoginViewController.h */;
+		name = "LoginViewController.h: 24";
+		rLen = 0;
+		rLoc = 675;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 0;
+	};
+	C386CE111281DF2F0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 65";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 1630;
+	};
+	C386CE121281DF2F0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 21";
+		rLen = 0;
+		rLoc = 419;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 0;
+	};
+	C386CE1D1281E01C0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
+		name = "SignupViewController.h: 31";
+		rLen = 0;
+		rLoc = 981;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 0;
+	};
+	C386CE1E1281E01C0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WagrItAppDelegate.m */;
+		name = "WagrItAppDelegate.m: 180";
+		rLen = 0;
+		rLoc = 3404;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 2926;
+	};
+	C386CE1F1281E01C0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3C31C19126C737B003846A0 /* LoginViewController.m */;
+		name = "LoginViewController.m: 35";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 1431;
+		vrLoc = 340;
+	};
+	C386CE201281E01C0000BCA2 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'timeZones' undeclared (first use in this function)";
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 91;
+		rType = 1;
+	};
+	C386CE211281E01C0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 97";
+		rLen = 0;
+		rLoc = 2792;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 2549;
+	};
+	C386CE221281E0480000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 75";
+		rLen = 0;
+		rLoc = 2033;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 1956;
+	};
+	C386CE231281E0480000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
+		name = "SignupViewController.h: 31";
+		rLen = 0;
+		rLoc = 981;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 0;
+	};
+	C386CE241281E0480000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
+		name = "SignupViewController.h: 31";
+		rLen = 0;
+		rLoc = 981;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 0;
+	};
+	C386CE261281E0800000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA3127F98550000BCA2 /* SignupViewController.h */;
+		name = "SignupViewController.h: 31";
+		rLen = 0;
+		rLoc = 981;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 0;
+	};
+	C386CE271281E0800000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 75";
+		rLen = 0;
+		rLoc = 2033;
+		rType = 0;
+		vrLen = 967;
+		vrLoc = 1956;
+	};
+	C386CE281281E0800000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 36";
+		rLen = 0;
+		rLoc = 982;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 811;
+	};
+	C386CE311281E6300000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */;
+		name = "SignupViewController.m: 36";
+		rLen = 0;
+		rLoc = 982;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 811;
+	};
+	C386CE321281E6300000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C49D126FBE1600839A4B /* WagrListViewController.h */;
+		name = "WagrListViewController.h: 22";
+		rLen = 0;
+		rLoc = 557;
+		rType = 0;
+		vrLen = 585;
+		vrLoc = 0;
+	};
+	C386CE331281E6300000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
+		name = "WagrListViewController.m: 32";
+		rLen = 0;
+		rLoc = 865;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 4850;
+	};
+	C386CE341281E6300000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
+		name = "WagrListViewController.m: 193";
+		rLen = 0;
+		rLoc = 5837;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 5142;
+	};
+	C386CE3D1281E6DD0000BCA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C312C49E126FBE1600839A4B /* WagrListViewController.m */;
+		name = "WagrListViewController.m: 195";
+		rLen = 0;
+		rLoc = 5837;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 5144;
 	};
 	C3C31BF7126C71A2003846A0 /* WagrIt */ = {
 		isa = PBXExecutable;
@@ -4770,15 +5198,15 @@
 	C3C31C18126C737B003846A0 /* LoginViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {971, 439}}";
-			sepNavSelRange = "{503, 30}";
-			sepNavVisRange = "{0, 539}";
+			sepNavSelRange = "{675, 0}";
+			sepNavVisRange = "{0, 745}";
 		};
 	};
 	C3C31C19126C737B003846A0 /* LoginViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1183}}";
-			sepNavSelRange = "{869, 244}";
-			sepNavVisRange = "{782, 1175}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1248}}";
+			sepNavSelRange = "{911, 0}";
+			sepNavVisRange = "{340, 1431}";
 		};
 	};
 }

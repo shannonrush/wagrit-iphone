@@ -11,6 +11,7 @@
 @class LoginViewController;
 
 NSString *token;
+NSArray *timezones;
 
 @interface WagrItAppDelegate : NSObject <UIApplicationDelegate> {
 	LoginViewController *loginViewController;
@@ -24,6 +25,7 @@ NSString *token;
 
 +(NSString *)token;
 +(void)setToken:(NSString *)auth_token;
++(NSArray *)timezones;
 
 @end
 

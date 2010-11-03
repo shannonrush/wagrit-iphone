@@ -16,6 +16,8 @@
 
 @synthesize loginField;
 @synthesize passwordField;
+@synthesize loginActivity;
+@synthesize loginButton;
 
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -29,10 +31,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+	loginActivity.hidden = YES;
 }
 
 
 - (IBAction)loginUser:(id)sender {
+	loginButton.hidden = YES;
+	loginActivity.hidden = NO;
     NSString *dataString=[NSString stringWithFormat:@"login=%@&password=%@",loginField.text, passwordField.text];
 	[self asynchRequest:@"session.json" withMethod:@"POST" withContentType:@"application/x-www-form-urlencoded" withData:dataString];		
 }

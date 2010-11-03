@@ -18,7 +18,6 @@
 	UITextField *passwordField;
 	UITextField *passwordConfirmationField;
 	UIPickerView *timeZonePicker;
-	NSArray *timeZones;
 }
 
 @property (nonatomic, retain) IBOutlet UITextField *firstNameField;
@@ -28,9 +27,7 @@
 @property (nonatomic, retain) IBOutlet UITextField *passwordField;
 @property (nonatomic, retain) IBOutlet UITextField *passwordConfirmationField;
 @property (nonatomic, retain) IBOutlet UIPickerView *timeZonePicker;
-@property (nonatomic, retain) NSArray *timeZones;
 
--(void)getTimeZones;
 -(IBAction)pickTimeZone:(id)sender;
 -(IBAction)signup:(id)sender;
 @end
