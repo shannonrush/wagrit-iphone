@@ -18,6 +18,7 @@
 @property (nonatomic, retain) IBOutlet UITextField *loginField;
 @property (nonatomic, retain) IBOutlet UITextField *passwordField;
 
-- (IBAction)loginUser:(id)sender;
+-(IBAction)loginUser:(id)sender;
+-(IBAction)signup:(id)sender;
 
 @end

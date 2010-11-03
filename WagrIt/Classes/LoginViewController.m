@@ -9,12 +9,28 @@
 #import "LoginViewController.h"
 #import "WagrListViewController.h"
 #import	"WagrItAppDelegate.h"
+#import "SignupViewController.h"
 
 
 @implementation LoginViewController
 
 @synthesize loginField;
 @synthesize passwordField;
+
+
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+		self.view.frame = [[UIScreen mainScreen] applicationFrame];
+    }
+    return self;
+}
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
 
 - (IBAction)loginUser:(id)sender {
     NSString *dataString=[NSString stringWithFormat:@"login=%@&password=%@",loginField.text, passwordField.text];
@@ -38,22 +54,11 @@
 	}
 }
 
-
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-		self.view.frame = [[UIScreen mainScreen] applicationFrame];
-    }
-    return self;
+-(IBAction)signup:(id)sender {
+	SignupViewController*  signupView = [[SignupViewController alloc] init];	
+	[self presentModalViewController:signupView animated:YES];	
+	[signupView release];	
 }
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-
-
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

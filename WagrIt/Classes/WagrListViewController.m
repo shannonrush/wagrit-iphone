@@ -25,7 +25,11 @@
 	self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]
 											 initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh
 											 target:self
-											 action:@selector(refreshWagrs)];	
+											 action:@selector(refreshWagrs)];
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
+											 initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+											 target:self
+											 action:nil];
 	wagrs = [[NSArray alloc] init];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;

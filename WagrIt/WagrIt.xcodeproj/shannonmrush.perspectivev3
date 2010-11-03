@@ -279,7 +279,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>9</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>C3C31C00126C71B9003846A0</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WagrListViewController.m</string>
+								<string>SignupViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C3C31C01126C71B9003846A0</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WagrListViewController.m</string>
+										<string>SignupViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C386CB97127EF0810000BCA2</string>
+										<string>C386CDE61280F4E40000BCA2</string>
 										<key>history</key>
 										<array>
 											<string>C312C5BF1270B46800839A4B</string>
@@ -339,16 +339,18 @@
 											<string>C312CF43127C8ACC00839A4B</string>
 											<string>C312CF44127C8ACC00839A4B</string>
 											<string>C328FCD9127CC84B000618B2</string>
-											<string>C328FD24127CD9BC000618B2</string>
-											<string>C328FD25127CD9BC000618B2</string>
-											<string>C386CB37127EECBB0000BCA2</string>
 											<string>C386CB75127EEEDF0000BCA2</string>
 											<string>C386CB8E127EF0560000BCA2</string>
-											<string>C386CB8F127EF0560000BCA2</string>
 											<string>C386CB90127EF0560000BCA2</string>
-											<string>C386CB91127EF0560000BCA2</string>
-											<string>C386CB92127EF0560000BCA2</string>
-											<string>C386CB93127EF0560000BCA2</string>
+											<string>C386CC1F127FA6610000BCA2</string>
+											<string>C386CC33127FA87F0000BCA2</string>
+											<string>C386CC34127FA87F0000BCA2</string>
+											<string>C386CCAF12803E720000BCA2</string>
+											<string>C386CCF8128047D60000BCA2</string>
+											<string>C386CD07128049700000BCA2</string>
+											<string>C386CD2112804A400000BCA2</string>
+											<string>C386CDDE1280F3F40000BCA2</string>
+											<string>C386CDDF1280F3F40000BCA2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -524,14 +526,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {1280, 121}}</string>
+						<string>{{0, 0}, {1280, 259}}</string>
 						<key>RubberWindowFrame</key>
 						<string>0 104 1280 674 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
 					<key>Proportion</key>
-					<string>121pt</string>
+					<string>259pt</string>
 				</dict>
 				<dict>
 					<key>ContentConfiguration</key>
@@ -550,8 +552,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {625, 265}}</string>
-									<string>{{625, 0}, {655, 265}}</string>
+									<string>{{0, 0}, {625, 193}}</string>
+									<string>{{625, 0}, {655, 193}}</string>
 								</array>
 							</dict>
 							<key>VerticalSplitView</key>
@@ -566,8 +568,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {1280, 265}}</string>
-									<string>{{0, 265}, {1280, 242}}</string>
+									<string>{{0, 0}, {1280, 193}}</string>
+									<string>{{0, 193}, {1280, 176}}</string>
 								</array>
 							</dict>
 						</dict>
@@ -587,7 +589,7 @@
 						<key>DebugSTDIOWindowFrame</key>
 						<string>{{200, 200}, {500, 300}}</string>
 						<key>Frame</key>
-						<string>{{0, 126}, {1280, 507}}</string>
+						<string>{{0, 264}, {1280, 369}}</string>
 						<key>PBXDebugSessionStackFrameViewKey</key>
 						<dict>
 							<key>DebugVariablesTableConfiguration</key>
@@ -600,7 +602,7 @@
 								<real>425</real>
 							</array>
 							<key>Frame</key>
-							<string>{{625, 0}, {655, 265}}</string>
+							<string>{{625, 0}, {655, 193}}</string>
 							<key>RubberWindowFrame</key>
 							<string>0 104 1280 674 0 0 1280 778 </string>
 						</dict>
@@ -610,7 +612,7 @@
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
 					<key>Proportion</key>
-					<string>507pt</string>
+					<string>369pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -669,7 +671,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>C386CB95127EF0560000BCA2</string>
 		<string>C386CA1B127DBA280000BCA2</string>
 		<string>C386CA1C127DBA280000BCA2</string>
 		<string>/Users/shannonmrush/git/wagrit-iphone/WagrIt/WagrIt.xcodeproj</string>
