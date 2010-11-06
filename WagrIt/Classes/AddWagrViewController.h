@@ -57,6 +57,7 @@
 @property (nonatomic, retain) IBOutlet UIButton *dateButton;
 @property (nonatomic, retain) IBOutlet UIButton *friendDateButton;
 @property (nonatomic, retain) IBOutlet UIActionSheet *dateAction;
+@property (nonatomic, retain) IBOutlet UIActionSheet *friendDateAction;
 @property (nonatomic, retain) IBOutlet UISegmentedControl *closeButton;
 
 -(IBAction)pickDate:(id)sender;
@@ -67,6 +68,6 @@
 -(IBAction)addWagrer:(id)sender;
 -(IBAction)submitWagr:(id)sender;
 -(void)initDatePicker:(UIPickerView *)pickerView withActionSheet:(UIActionSheet *)actionSheet;
-
+-(void)resetView;
 
 @end

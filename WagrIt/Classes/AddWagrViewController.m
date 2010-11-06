@@ -33,6 +33,7 @@
 @synthesize dateButton;
 @synthesize friendDateButton;
 @synthesize dateAction;
+@synthesize friendDateAction;
 @synthesize closeButton;
 
 /*
@@ -54,7 +55,7 @@
 	addActivity.hidden = YES;
 	friendPicker.hidden = YES;
 	dateAction.hidden = YES;
-	friendDatePicker.hidden = YES;
+	friendDateAction.hidden = YES;
 	friendsTable.backgroundColor = [UIColor clearColor];
 	friends = [[NSArray alloc]init];
 	years = [[NSArray alloc]initWithObjects:@"2010",@"2011",@"2012",@"2013",@"2014",@"2015",@"2016",@"2017",@"2018",@"2019",nil];
@@ -182,21 +183,22 @@
 }
 
 -(IBAction)pickFriendDate:(id)sender {
-	[self initDatePicker:friendDatePicker];
+	[self initDatePicker:friendDatePicker withActionSheet:friendDateAction];
 }
 
 -(IBAction)friendDateSelected:(id)sender {
+	friendDateAction.hidden = YES;
 }
 
 -(void)initDatePicker:(UIPickerView *)pickerView withActionSheet:(UIActionSheet *)actionSheet {
-	[self.view endEditing:YES];
+	[self resetView];
 	NSCalendar *calendar = [NSCalendar currentCalendar];
 	NSDateComponents *components = [calendar components:(NSMonthCalendarUnit | NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit) fromDate:[NSDate date]];
 	[pickerView selectRow:[components month]-1 inComponent:0 animated:NO];
 	[pickerView selectRow:[components day]-1 inComponent:1 animated:NO];
 	[pickerView selectRow:[components hour]-1 inComponent:3 animated:NO];
 	[pickerView selectRow:[components minute] inComponent:4 animated:NO];
-	[dateAction setActionSheetStyle:UIActionSheetStyleBlackTranslucent];
+	[actionSheet setActionSheetStyle:UIActionSheetStyleBlackTranslucent];
 	closeButton = [[UISegmentedControl alloc] initWithItems:[NSArray arrayWithObject:@"Done"]];
 	closeButton.momentary = YES; 
 	closeButton.frame = CGRectMake(250, 7.0f, 60.0f, 35.0f);
@@ -215,7 +217,7 @@
 }
 
 -(IBAction)pickFriend:(id)sender {
-	[self.view endEditing:YES];
+	[self resetView];
 	[self.view bringSubviewToFront:friendPicker];
 	friendPicker.hidden = NO;
 }
@@ -226,6 +228,12 @@
 
 -(IBAction)submitWagr:(id)sender {
 
+}
+
+-(void)resetView {
+	dateAction.hidden = YES;
+	friendDateAction.hidden = YES;
+	[self.view endEditing:YES];
 }
 
 
