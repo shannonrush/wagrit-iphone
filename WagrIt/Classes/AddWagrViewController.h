@@ -33,6 +33,8 @@
 	UIButton *friendDateButton;
 	UIActionSheet *dateAction;
 	UISegmentedControl *closeButton;
+	NSDictionary *guessDate;
+	NSDictionary *friendGuessDate;
 }
 
 @property (nonatomic, retain) IBOutlet UITextField *descriptionField;
@@ -59,6 +61,8 @@
 @property (nonatomic, retain) IBOutlet UIActionSheet *dateAction;
 @property (nonatomic, retain) IBOutlet UIActionSheet *friendDateAction;
 @property (nonatomic, retain) IBOutlet UISegmentedControl *closeButton;
+@property (nonatomic, retain) IBOutlet NSDictionary *guessDate;
+@property (nonatomic, retain) IBOutlet NSDictionary *friendGuessDate;
 
 -(IBAction)pickDate:(id)sender;
 -(IBAction)pickFriendDate:(id)sender;

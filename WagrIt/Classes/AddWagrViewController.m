@@ -35,6 +35,8 @@
 @synthesize dateAction;
 @synthesize friendDateAction;
 @synthesize closeButton;
+@synthesize guessDate;
+@synthesize friendGuessDate;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -57,7 +59,16 @@
 	dateAction.hidden = YES;
 	friendDateAction.hidden = YES;
 	friendsTable.backgroundColor = [UIColor clearColor];
-	friends = [[NSArray alloc]init];
+	friends = [[NSMutableArray alloc]init];
+	NSCalendar *calendar = [NSCalendar currentCalendar];
+	NSDateComponents *components = [calendar components:(NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit) fromDate:[NSDate date]];
+	guessDate = [[NSDictionary alloc]initWithObjectsAndKeys:
+										[NSString stringWithFormat:@"%d",[components year]],@"year",
+										[NSString stringWithFormat:@"%d",[components month]],@"month",
+										[NSString stringWithFormat:@"%d",[components day]],@"day",
+										[NSString stringWithFormat:@"%d",[components hour]],@"hour",
+										[NSString stringWithFormat:@"%d",[components minute]],@"minute",nil];
+	friendGuessDate = [[NSDictionary alloc]initWithDictionary:guessDate];
 	years = [[NSArray alloc]initWithObjects:@"2010",@"2011",@"2012",@"2013",@"2014",@"2015",@"2016",@"2017",@"2018",@"2019",nil];
 	months = [[NSArray alloc]initWithObjects:@"Jan",@"Feb",@"Mar",@"Apr",@"May",@"Jun",@"Jul",@"Aug",@"Sep",@"Oct",@"Nov",@"Dec",nil];
 }
@@ -77,8 +88,14 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return [friends count];
 }
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 30.00; 
+}
+
 
 
 // Customize the appearance of table view cells.
@@ -90,9 +107,13 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-	//cell.textLabel.font = [UIFont fontWithName:@"Arial" size:14];
-	//cell.textLabel.text = [[friends objectAtIndex:[indexPath row]] valueForKey:@"description"];
-	cell.textLabel.text = @"test";
+	NSDictionary *friend = [friends objectAtIndex:[indexPath row]];
+	cell.textLabel.font = [UIFont fontWithName:@"Arial" size:14];
+	if ([[friend valueForKey:@"guess"] isEqualToString:@""]) {
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ %@ (We'll ask %@ for a guess)",[friend valueForKey:@"first_name"],[friend valueForKey:@"last_name"],[friend valueForKey:@"first_name"]];
+	} else {
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ %@ guesses %@",[friend valueForKey:@"first_name"],[friend valueForKey:@"last_name"],[friend valueForKey:@"guess"]];
+	}
 	return cell;
 }
 
@@ -164,8 +185,26 @@
 
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
-	pickerView.hidden = YES;
 	if (pickerView==datePicker) {
+		switch (component) {
+			case 0:
+				[guessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"month"];
+				break;
+			case 1:
+				[guessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"day"];
+				break;
+			case 2:
+				[guessDate setValue:[years row] forKey:@"year"];
+				break;
+			case 3:
+				[guessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"hour"];
+				break;
+			case 4:
+				[guessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"minute"];
+				break;
+			default:
+				break;
+		}
 	} else if (pickerView==friendDatePicker) {
 		
 	} else if (pickerView==friendPicker) {
@@ -180,6 +219,12 @@
 
 -(IBAction)dateSelected:(id)sender {
 	dateAction.hidden = YES;
+	guessField.text = [NSString stringWithFormat:@"%@/%@/%@ %@:%@",
+					   [guessDate valueForKey:@"month"],
+					   [guessDate valueForKey:@"day"],
+					   [guessDate valueForKey:@"year"],
+					   [guessDate valueForKey:@"hour"],
+					   [guessDate valueForKey:@"minute"]];
 }
 
 -(IBAction)pickFriendDate:(id)sender {
@@ -188,6 +233,12 @@
 
 -(IBAction)friendDateSelected:(id)sender {
 	friendDateAction.hidden = YES;
+	friendGuessField.text = [NSString stringWithFormat:@"%@/%@/%@ %@:%@",
+					   [friendGuessDate valueForKey:@"month"],
+					   [friendGuessDate valueForKey:@"day"],
+					   [friendGuessDate valueForKey:@"year"],
+					   [friendGuessDate valueForKey:@"hour"],
+					   [friendGuessDate valueForKey:@"minute"]];
 }
 
 -(void)initDatePicker:(UIPickerView *)pickerView withActionSheet:(UIActionSheet *)actionSheet {
@@ -223,7 +274,17 @@
 }
 
 -(IBAction)addWagrer:(id)sender {
-
+	NSDictionary *newFriend = [NSDictionary dictionaryWithObjectsAndKeys:firstNameField.text,@"first_name",
+							   lastNameField.text,@"last_name",
+							   emailField.text,@"email",
+							   friendGuessField.text,@"guess",
+							   nil];
+	[friends addObject:newFriend];
+	firstNameField.text = @"";
+	lastNameField.text = @"";
+	emailField.text = @"";
+	friendGuessField.text = @"";
+	[friendsTable reloadData];
 }
 
 -(IBAction)submitWagr:(id)sender {
@@ -231,6 +292,7 @@
 }
 
 -(void)resetView {
+	friendPicker.hidden = YES;
 	dateAction.hidden = YES;
 	friendDateAction.hidden = YES;
 	[self.view endEditing:YES];
