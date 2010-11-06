@@ -8,6 +8,7 @@
 
 #import "WagrListViewController.h"
 #import "WagrDetailViewController.h"
+#import "AddWagrViewController.h"
 
 
 @implementation WagrListViewController
@@ -31,7 +32,7 @@
 	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
 											 initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
 											 target:self
-											 action:nil];
+											 action:@selector(addWagr)];
 	wagrs = [[NSArray alloc] init];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -41,6 +42,11 @@
 	refreshActivity.hidden = NO;
 	[wagrs release];
 	[self collectWagrs];
+}
+
+-(void)addWagr {
+	AddWagrViewController *addWagrView = [[AddWagrViewController alloc] initWithNibName:@"AddWagrViewController" bundle:nil];
+	[self.navigationController pushViewController:addWagrView animated:YES];
 }
 
 /*

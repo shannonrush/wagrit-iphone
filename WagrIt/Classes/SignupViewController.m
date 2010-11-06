@@ -90,7 +90,7 @@
 		[self errorAlert:[data objectForKey:@"errors"]];
 	} else {
 		if (([[data valueForKey:@"method"] isEqualToString:@"signup_user"])) {
-			NSLog(@"hooray!");
+			//redirect to add wagr
 		}
 	}
 	

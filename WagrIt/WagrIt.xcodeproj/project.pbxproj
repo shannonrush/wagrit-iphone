@@ -32,6 +32,8 @@
 		C312CF35127C6B7000839A4B /* login_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C312CF34127C6B7000839A4B /* login_header@2x.png */; };
 		C386CBA6127F98550000BCA2 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C386CBA4127F98550000BCA2 /* SignupViewController.m */; };
 		C386CBA7127F98550000BCA2 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C386CBA5127F98550000BCA2 /* SignupViewController.xib */; };
+		C386CE4112823A170000BCA2 /* AddWagrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C386CE3F12823A170000BCA2 /* AddWagrViewController.m */; };
+		C386CE4212823A170000BCA2 /* AddWagrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C386CE4012823A170000BCA2 /* AddWagrViewController.xib */; };
 		C3C31C1B126C737B003846A0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C31C19126C737B003846A0 /* LoginViewController.m */; };
 		C3C31C1C126C737B003846A0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C31C1A126C737B003846A0 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
@@ -77,6 +79,9 @@
 		C386CBA3127F98550000BCA2 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
 		C386CBA4127F98550000BCA2 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 		C386CBA5127F98550000BCA2 /* SignupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SignupViewController.xib; path = Classes/SignupViewController.xib; sourceTree = "<group>"; };
+		C386CE3E12823A170000BCA2 /* AddWagrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWagrViewController.h; sourceTree = "<group>"; };
+		C386CE3F12823A170000BCA2 /* AddWagrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWagrViewController.m; sourceTree = "<group>"; };
+		C386CE4012823A170000BCA2 /* AddWagrViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddWagrViewController.xib; path = Classes/AddWagrViewController.xib; sourceTree = "<group>"; };
 		C3C31C18126C737B003846A0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		C3C31C19126C737B003846A0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C3C31C1A126C737B003846A0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/LoginViewController.xib; sourceTree = "<group>"; };
@@ -114,6 +119,8 @@
 				C312C5BA1270B45F00839A4B /* WagrDetailViewController.m */,
 				C312CE78127AF50B00839A4B /* WagrDetailCell.h */,
 				C312CE79127AF50B00839A4B /* WagrDetailCell.m */,
+				C386CE3E12823A170000BCA2 /* AddWagrViewController.h */,
+				C386CE3F12823A170000BCA2 /* AddWagrViewController.m */,
 				C312C443126E833900839A4B /* JSON */,
 			);
 			path = Classes;
@@ -207,6 +214,7 @@
 				C312C49F126FBE1600839A4B /* WagrListViewController.xib */,
 				C312C5BB1270B45F00839A4B /* WagrDetailViewController.xib */,
 				C312CE89127AF64900839A4B /* WagrDetailCell.xib */,
+				C386CE4012823A170000BCA2 /* AddWagrViewController.xib */,
 			);
 			name = XIB;
 			sourceTree = "<group>";
@@ -270,6 +278,7 @@
 				C312CF33127C6B3700839A4B /* login_header.png in Resources */,
 				C312CF35127C6B7000839A4B /* login_header@2x.png in Resources */,
 				C386CBA7127F98550000BCA2 /* SignupViewController.xib in Resources */,
+				C386CE4212823A170000BCA2 /* AddWagrViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +302,7 @@
 				C312C854127326D900839A4B /* BaseViewController.m in Sources */,
 				C312CE7A127AF50B00839A4B /* WagrDetailCell.m in Sources */,
 				C386CBA6127F98550000BCA2 /* SignupViewController.m in Sources */,
+				C386CE4112823A170000BCA2 /* AddWagrViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
