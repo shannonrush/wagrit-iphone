@@ -19,6 +19,7 @@
 	UITextField *lastNameField;
 	UITextField *emailField;
 	UIButton *chooseButton;
+	UIActionSheet *friendAction;
 	UIPickerView *friendPicker;
 	UITextField *friendGuessField;
 	UIButton *addButton;
@@ -35,6 +36,11 @@
 	UISegmentedControl *closeButton;
 	NSDictionary *guessDate;
 	NSDictionary *friendGuessDate;
+	NSDictionary *chosenFriend;
+	UIScrollView *scrollview;
+	BOOL keyboardVisible;
+	CGPoint offset;
+	UITextField *activeField;
 }
 
 @property (nonatomic, retain) IBOutlet UITextField *descriptionField;
@@ -63,12 +69,18 @@
 @property (nonatomic, retain) IBOutlet UISegmentedControl *closeButton;
 @property (nonatomic, retain) IBOutlet NSDictionary *guessDate;
 @property (nonatomic, retain) IBOutlet NSDictionary *friendGuessDate;
+@property (nonatomic, retain) IBOutlet UIActionSheet *friendAction;
+@property (nonatomic, retain) IBOutlet NSDictionary *chosenFriend;
+@property (nonatomic, retain) IBOutlet UIScrollView *scrollview;
+
+
 
 -(IBAction)pickDate:(id)sender;
 -(IBAction)pickFriendDate:(id)sender;
 -(IBAction)dateSelected:(id)sender;
 -(IBAction)friendDateSelected:(id)sender;
 -(IBAction)pickFriend:(id)sender;
+-(IBAction)friendSelected:(id)sender;
 -(IBAction)addWagrer:(id)sender;
 -(IBAction)submitWagr:(id)sender;
 -(void)initDatePicker:(UIPickerView *)pickerView withActionSheet:(UIActionSheet *)actionSheet;

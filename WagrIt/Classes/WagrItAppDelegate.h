@@ -12,6 +12,7 @@
 
 NSString *token;
 NSArray *timezones;
+NSMutableArray *existingFriends;
 
 @interface WagrItAppDelegate : NSObject <UIApplicationDelegate> {
 	LoginViewController *loginViewController;
@@ -26,6 +27,8 @@ NSArray *timezones;
 +(NSString *)token;
 +(void)setToken:(NSString *)auth_token;
 +(NSArray *)timezones;
++(NSMutableArray *)existingFriends;
++(void)setExistingFriends:(NSMutableArray *)returnedFriends;
 
 @end
 

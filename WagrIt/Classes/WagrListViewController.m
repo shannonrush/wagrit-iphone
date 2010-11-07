@@ -9,6 +9,7 @@
 #import "WagrListViewController.h"
 #import "WagrDetailViewController.h"
 #import "AddWagrViewController.h"
+#import "WagrItAppDelegate.h"
 
 
 @implementation WagrListViewController
@@ -158,7 +159,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	selectedWagr = [wagrs objectAtIndex:[indexPath row]];
-	//Initialize the detail view controller and display it.
 	WagrDetailViewController *dvController = [[WagrDetailViewController alloc] initWithNibName:@"WagrDetailViewController" bundle:[NSBundle mainBundle]];
 	dvController.selectedWagr = selectedWagr;
 	[self.navigationController pushViewController:dvController animated:YES];
@@ -195,6 +195,7 @@
 
 - (void) handleAsynchResponse:(NSDictionary *)data {
 	wagrs = [[NSArray alloc] initWithArray:[data objectForKey:@"wagers"]];
+	[WagrItAppDelegate setExistingFriends:[[NSMutableArray alloc]initWithArray:[data objectForKey:@"existing_friends"]]];
 	tableView.hidden = YES;
 	[tableView reloadData];
 	refreshActivity.hidden = YES;

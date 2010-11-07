@@ -279,13 +279,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
+									<integer>16</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {226, 615}}</string>
+							<string>{{0, 169}, {226, 615}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -320,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>C3C31C00126C71B9003846A0</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AddWagrViewController.m</string>
+								<string>AddWagrViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C3C31C01126C71B9003846A0</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AddWagrViewController.m</string>
+										<string>AddWagrViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C386D1CE12861E440000BCA2</string>
+										<string>C386D2C61287247F0000BCA2</string>
 										<key>history</key>
 										<array>
 											<string>C312C5BF1270B46800839A4B</string>
@@ -346,17 +346,17 @@
 											<string>C386CB75127EEEDF0000BCA2</string>
 											<string>C386CB8E127EF0560000BCA2</string>
 											<string>C386CDDE1280F3F40000BCA2</string>
-											<string>C386CE0D1281DF2F0000BCA2</string>
 											<string>C386CE101281DF2F0000BCA2</string>
-											<string>C386CE1E1281E01C0000BCA2</string>
 											<string>C386CE261281E0800000BCA2</string>
 											<string>C386CE721282E4010000BCA2</string>
-											<string>C386CE731282E4010000BCA2</string>
-											<string>C386CE801282E65F0000BCA2</string>
 											<string>C386CE8C1282E7330000BCA2</string>
 											<string>C386CE951282E9BA0000BCA2</string>
-											<string>C386D1AF128619B30000BCA2</string>
-											<string>C386D1B0128619B30000BCA2</string>
+											<string>C386D24B12862F7B0000BCA2</string>
+											<string>C386D24C12862F7B0000BCA2</string>
+											<string>C386D24D12862F7B0000BCA2</string>
+											<string>C386D25112862F8D0000BCA2</string>
+											<string>C386D2C41287247F0000BCA2</string>
+											<string>C386D2C51287247F0000BCA2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

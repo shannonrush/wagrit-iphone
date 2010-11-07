@@ -5,9 +5,11 @@
 //  Created by Shannon Rush on 11/3/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
+#define SCROLLVIEW_CONTENT_HEIGHT 460
+#define SCROLLVIEW_CONTENT_WIDTH  320
 
 #import "AddWagrViewController.h"
-
+#import "WagrItAppDelegate.h"
 
 @implementation AddWagrViewController
 
@@ -37,6 +39,9 @@
 @synthesize closeButton;
 @synthesize guessDate;
 @synthesize friendGuessDate;
+@synthesize friendAction;
+@synthesize chosenFriend;
+@synthesize scrollview;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -55,9 +60,12 @@
 	self.title = @"New Wagr";
 	submitActivity.hidden = YES;
 	addActivity.hidden = YES;
-	friendPicker.hidden = YES;
+	friendAction.hidden = YES;
 	dateAction.hidden = YES;
 	friendDateAction.hidden = YES;
+	if ([[WagrItAppDelegate existingFriends]count]<1) {
+		chooseButton.hidden = YES;
+	}
 	friendsTable.backgroundColor = [UIColor clearColor];
 	friends = [[NSMutableArray alloc]init];
 	NSCalendar *calendar = [NSCalendar currentCalendar];
@@ -95,8 +103,6 @@
 {
     return 30.00; 
 }
-
-
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -150,7 +156,7 @@
 				break;
 		}
 	}  else if (pickerView==friendPicker) {
-		return [friends count];
+		return [[WagrItAppDelegate existingFriends] count];
 	}
 }
 
@@ -180,6 +186,8 @@
 				break;
 		}
 	} else if (pickerView==friendPicker) {
+		NSDictionary *friend = [[WagrItAppDelegate existingFriends] objectAtIndex:row];
+		return [NSString stringWithFormat:@"%@ %@",[friend valueForKey:@"first_name"],[friend valueForKey:@"last_name"]];
 	}
 }
 
@@ -194,7 +202,7 @@
 				[guessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"day"];
 				break;
 			case 2:
-				[guessDate setValue:[years row] forKey:@"year"];
+				[guessDate setValue:[years objectAtIndex:row] forKey:@"year"];
 				break;
 			case 3:
 				[guessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"hour"];
@@ -206,9 +214,27 @@
 				break;
 		}
 	} else if (pickerView==friendDatePicker) {
-		
+		switch (component) {
+			case 0:
+				[friendGuessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"month"];
+				break;
+			case 1:
+				[friendGuessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"day"];
+				break;
+			case 2:
+				[friendGuessDate setValue:[years objectAtIndex:row] forKey:@"year"];
+				break;
+			case 3:
+				[friendGuessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"hour"];
+				break;
+			case 4:
+				[friendGuessDate setValue:[NSString stringWithFormat:@"%d", row] forKey:@"minute"];
+				break;
+			default:
+				break;
+		}
 	} else if (pickerView==friendPicker) {
-	
+		chosenFriend = [[NSDictionary alloc]initWithDictionary:[[WagrItAppDelegate existingFriends] objectAtIndex:row]];
 	}
 }
 
@@ -269,8 +295,26 @@
 
 -(IBAction)pickFriend:(id)sender {
 	[self resetView];
-	[self.view bringSubviewToFront:friendPicker];
-	friendPicker.hidden = NO;
+	chosenFriend = [[NSDictionary alloc]initWithDictionary:[[WagrItAppDelegate existingFriends] objectAtIndex:0]];
+	[friendAction setActionSheetStyle:UIActionSheetStyleBlackTranslucent];
+	closeButton = [[UISegmentedControl alloc] initWithItems:[NSArray arrayWithObject:@"Choose"]];
+	closeButton.momentary = YES; 
+	closeButton.frame = CGRectMake(250, 7.0f, 60.0f, 35.0f);
+	closeButton.segmentedControlStyle = UISegmentedControlStyleBar;
+	closeButton.tintColor = [UIColor colorWithRed:99.0f/255.0f green:173.0f/255.0f blue:208.0f/255.0f alpha:1.0];
+	[closeButton addTarget:self action:@selector(friendSelected:) forControlEvents:UIControlEventValueChanged];
+	[friendAction addSubview:closeButton];
+	[friendAction addSubview:friendPicker];
+	[closeButton release];
+	[self.view bringSubviewToFront:friendAction];
+	friendAction.hidden = NO;
+}
+
+-(IBAction)friendSelected:(id)sender {
+	friendAction.hidden = YES;
+	firstNameField.text = [chosenFriend valueForKey:@"first_name"];
+	lastNameField.text = [chosenFriend valueForKey:@"last_name"];
+	emailField.text = [chosenFriend valueForKey:@"email"];
 }
 
 -(IBAction)addWagrer:(id)sender {
@@ -292,7 +336,7 @@
 }
 
 -(void)resetView {
-	friendPicker.hidden = YES;
+	friendAction.hidden = YES;
 	dateAction.hidden = YES;
 	friendDateAction.hidden = YES;
 	[self.view endEditing:YES];
@@ -308,10 +352,95 @@
 }
 */
 
-- (BOOL)textFieldShouldReturn:(UITextField *)theField {
-	[theField resignFirstResponder];
+
+- (void) viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	NSLog(@"Registering for keyboard events");
+	
+	// Register for the events
+	[[NSNotificationCenter defaultCenter]
+	 addObserver:self
+	 selector:@selector (keyboardDidShow:)
+	 name: UIKeyboardDidShowNotification
+	 object:nil];
+	[[NSNotificationCenter defaultCenter]
+	 addObserver:self
+	 selector:@selector (keyboardDidHide:)
+	 name: UIKeyboardDidHideNotification
+	 object:nil];
+	
+	// Setup content size
+	scrollview.contentSize = CGSizeMake(SCROLLVIEW_CONTENT_WIDTH,
+										SCROLLVIEW_CONTENT_HEIGHT);
+	
+	//Initially the keyboard is hidden
+	keyboardVisible = NO;
+}
+
+-(void) viewWillDisappear:(BOOL)animated {
+	NSLog (@"Unregister for keyboard events");
+	[[NSNotificationCenter defaultCenter]
+	 removeObserver:self];
+}
+
+-(void) keyboardDidShow: (NSNotification *)notif {
+	NSLog(@"Keyboard is visible");
+	// If keyboard is visible, return
+	if (keyboardVisible) {
+		NSLog(@"Keyboard is already visible. Ignore notification.");
+		return;
+	}
+	
+	// Get the size of the keyboard.
+	NSDictionary* info = [notif userInfo];
+	NSValue* aValue = [info objectForKey:UIKeyboardBoundsUserInfoKey];
+	CGSize keyboardSize = [aValue CGRectValue].size;
+	
+	// Save the current location so we can restore
+	// when keyboard is dismissed
+	offset = scrollview.contentOffset;
+	
+	// Resize the scroll view to make room for the keyboard
+	CGRect viewFrame = scrollview.frame;
+	viewFrame.size.height -= keyboardSize.height;
+	scrollview.frame = viewFrame;
+	
+	CGRect textFieldRect = [activeField frame];
+	textFieldRect.origin.y += 10;
+	[scrollview scrollRectToVisible:textFieldRect animated:YES];
+	
+	NSLog(@"ao fim");
+	// Keyboard is now visible
+	keyboardVisible = YES;
+}
+-(void) keyboardDidHide: (NSNotification *)notif {
+	// Is the keyboard already shown
+	if (!keyboardVisible) {
+		NSLog(@"Keyboard is already hidden. Ignore notification.");
+		return;
+	}
+	
+	// Reset the frame scroll view to its original value
+	scrollview.frame = CGRectMake(0, 0, SCROLLVIEW_CONTENT_WIDTH, SCROLLVIEW_CONTENT_HEIGHT);
+	
+	// Reset the scrollview to previous location
+	scrollview.contentOffset = offset;
+	
+	// Keyboard is no longer visible
+	keyboardVisible = NO;
+	
+}
+
+-(BOOL) textFieldShouldBeginEditing:(UITextField*)textField {
+	activeField = textField;
 	return YES;
 }
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+	[textField resignFirstResponder];
+	return YES;
+}
+
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -328,6 +457,7 @@
 
 
 - (void)dealloc {
+	[chosenFriend release];
 	[friends release];
     [super dealloc];
 }

@@ -30,11 +30,21 @@
 	return timezones; 
 }
 
++(NSMutableArray *)existingFriends {
+	return existingFriends;
+}
+
++(void)setExistingFriends:(NSMutableArray *)returnedFriends {
+	existingFriends = returnedFriends;
+}
+
+
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	token = [[NSString alloc]init];
+	existingFriends = [[NSMutableArray alloc]init];
 	timezones = [[NSArray alloc]initWithObjects:@"International Date Line West",
 				 @"Midway Island",
 				 @"Samoa",
@@ -242,6 +252,7 @@
 	[token release];
 	[loginViewController release];
     [window release];
+	[existingFriends release];
     [super dealloc];
 }
 
